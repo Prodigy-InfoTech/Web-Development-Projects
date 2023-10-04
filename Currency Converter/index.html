@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="header">
+            <h1 id="header-text">Currency Converter</h1>
+        </div>
+    </header>
+
+    <div id="content">
+        <h1>Select the Currency to convert</h1>
+        <form action="./data.php" method="get">
+            <label for="quantity">Select a Quantity</label>
+            <input type="number" name="quantity" min="1" max="10">
+            <label for="currency">Select a Currency: </label>
+            <select name="currency">
+                <option value="INR">Indian Rupee</option>
+                <option value="USD">US Dollar</option>
+                <option value="EUR">Euro</option>
+            </select>
+            <br>
+            <button class="btn" type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div class="output">
+        <h2>Here is your converted values in different currencies</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Currency</th>
+                        <th>Code</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+    </div>
+    <script>
+
+    </script>
+    <script src="./script.js"></script>
+</body>
+</html>

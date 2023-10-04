@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0
+}
+
+header{
+    background-color: #CD5C08;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    height: 70px;
+    font-size: 1.5rem;
+}
+
+#header-text{
+    margin-left:10px;
+}
+
+body{
+    background-color: antiquewhite;
+    font-family: 'Roboto', sans-serif;
+}
+
+#content{
+    margin-top: 100px;
+    margin-left: 30%;
+    font-size: large;
+}
+
+div form{
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+.btn {
+    width: 80px;
+    padding: 1px px;
+    font-size: 18px;
+    background: #e0d0f5;
+    color: black;
+    border-radius: 13px;
+    cursor: pointer;
+    margin-left: 260px;
+    margin-top: 10px;
+}
+
+.output {
+    display: none;
+    margin-left: 100px;
+    margin-top:40px;
+}
+
+.output table {
+    width: 50vw;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+.output table th{
+    padding: 3px;
+}

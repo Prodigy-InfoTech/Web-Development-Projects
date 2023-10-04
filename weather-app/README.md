@@ -3,3 +3,5 @@ As the requirements suggest, this web app seamlessly allows users to enter a loc
 The api I've used is : https://openweathermap.org/api
 
 my github : https://github.com/tejus05
+
+demo : https://tejus05.github.io/vanilla-javascript-projects/weather-app/

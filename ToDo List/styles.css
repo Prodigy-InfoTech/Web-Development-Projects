@@ -1,0 +1,78 @@
+:root {
+	--dark: #374151;
+	--darker: #1F2937;
+	--darkest: #111827;
+	--grey: #6B7280;
+	--pink: #EC4899;
+	--purple: #8B5CF6;
+	--light: #EEE;
+}
+body {
+    font-family: "Fira sans", sans-serif;
+    background-color: #374151;
+  }
+  
+  .main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #374151;
+    border-radius: 5px;
+    background-color: #374151;
+  }
+  
+  .task {
+    display: flex;
+    gap: 10 px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content:space-between;
+    padding: 8px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    margin-bottom: 5px;
+    background-color: #111827;
+    color: white;
+  }
+  
+  li button {
+    background-color: #111827;
+    color: crimson;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  #taskInput{
+    width:675px;
+    height: 50px;
+    background-color: #1f2937;
+    color: white;
+    border: 1px solid #1f2937;
+    border-radius: 10px;
+    font-size: 20px;
+    
+  }
+  h1{
+    color: #6b7280;
+  }
+  .addbutton{
+    border:1px solid #374151;
+    color: var(--pink);
+    font-size: 1.25rem;
+    font-weight: 700;
+    background-image: linear-gradient(to right, var(--pink), var(--purple));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-left:15px;
+  }
+  

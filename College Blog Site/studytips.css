@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.studytips img {
+    margin-top: 15px;
+    width: 350px;
+    height: 350px;
+}
+
+.btn4 {
+    padding: 7px 20px;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    border: 2px solid black;
+    border-radius: 6px;
+    font-family: var(--font1);
+    font-size: 15px;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn4:hover {
+    color: white;
+    background: blueviolet;
+}
+
+.study-tips {
+    display: flex;
+    padding: 25px;
+    justify-self: center;
+
+}
+
+.studytips-heading span {
+    font-weight: bolder;
+}
+
+.studytips-content {
+    align-self: center;
+    padding: 25px;
+    margin-top: 45px;
+    display: inline-block;
+
+}
+
+.studytips-content ul {
+    font-weight: bolder;
+    font-style: oblique;
+    font-size: 20px;
+    color: red;
+    background-color: grey;
+}

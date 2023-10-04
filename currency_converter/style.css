@@ -1,3 +1,4 @@
+/* Box-sizing: Border-box makes sure padding and borders are included in element width */
 *, *:after, *::before{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -5,6 +6,8 @@
     box-sizing: border-box;
 }
 
+
+/* Styling for the entire body */
 body {
     font-family: Arial, sans-serif;
     font-size: 16px;
@@ -18,25 +21,32 @@ body {
     height: 100vh;
 }
 
+
+/* Styling for the container holding the converter */
 .container{
     width: 600px;
 }
 
+/* Styling for the header */
 h1{
     font-size: 60px;
     text-align: center;
 }
 
+/* Styling for the row of elements */
 .row{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+
+/* Styling for the columns */
 .col{
     width: 48%;
 }
 
+/* Styling for select, input, and p elements */
 select,input, p{
     width: 100%;
     margin-bottom: 15px;
@@ -45,6 +55,8 @@ select,input, p{
     font-weight: 700;
 }
 
+
+/* Styling for the button */
 button{
     width: 200px;
     display: block;

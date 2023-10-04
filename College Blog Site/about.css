@@ -1,0 +1,193 @@
+.about-container {
+  max-width: 900px;
+  margin: 90px auto;
+  font-family: "Roboto", sans-serif;
+}
+
+.about-container p {
+  line-height: 2;
+  padding: 0 20px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.about-container .profile-image {
+  text-align: center;
+  padding: 30px;
+}
+
+
+.about-container .profile-image img {
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  padding: 8px;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  box-shadow: 0 4px 16px -6px rgba(0, 0, 0, 0.4);
+  max-width: 550px;
+  margin: 24px auto;
+  border-radius: 20px;
+}
+
+.projects-container .project {
+  height: 160px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 32px;
+}
+
+.projects-container .project-name {
+  font-size: 16px;
+}
+
+.projects-container .project-number {
+  font-size: 72px;
+  font-weight: bold;
+}
+
+.our-team-heading {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 48px;
+  padding-top: 64px;
+  font-family: serif;
+
+}
+
+.our-team {
+  display: flex;
+  padding: 30px;
+}
+
+.team-member img {
+  width: 250px;
+  /*object-fit: contain;*/
+  height: 350px;
+  opacity: 50%;
+
+}
+.team-member img:hover {
+  opacity: 100%;
+  transition: opacity 1s;
+}
+.team-member1 img {
+  width: 250px;
+  /*object-fit: contain;*/
+  height: 350px;
+  margin-left: 190px;
+  opacity: 50%;
+}
+.team-member1 img:hover {
+  opacity: 100%;
+  transform: tran;
+}
+
+.team-member2 img {
+  width: 250px;
+  /*object-fit: contain;*/
+  height: 350px;
+  margin-left: 1020px;
+  position: relative;
+  bottom: 500px;
+  opacity: 50%;
+}
+
+.team-member2 img:hover{
+  opacity: 100%;
+  transition: opacity 1s;
+}
+
+
+.our-team .team-member {
+  margin: 20px 15px;
+  position: relative;
+  width: 100%;
+}
+
+.our-team .designation {
+  position: absolute;
+  bottom: 20px;
+  background: #fff;
+  padding: 12px 20px;
+  border-radius: 0 20px 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  font-size: 14px;
+}
+
+.team-member1 .designation {
+  position: relative;
+  height: 25px;
+  bottom: 78px;
+  background: #fff;
+  padding: 15px 20px;
+  padding-bottom: 17px;
+  width: 185px;
+  margin-left: 190px;
+  border-radius: 0 20px 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  font-size: 14px;
+}
+
+.team-member2 .designation {
+  position: relative;
+  height: 25px;
+  bottom: 580px;
+  background: #fff;
+  padding: 15px 20px;
+  padding-bottom: 19px;
+  width: 185px;
+  margin-left: 1020px;
+  border-radius: 0 20px 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  font-size: 14px;
+}
+
+
+.our-mission {
+  position: absolute;
+  margin-bottom: 0px;
+  margin-left: 590px;
+}
+.our-mission p {
+ font-size: 30px;
+ margin-left: 100px;
+ position: absolute;
+ width: 800px;
+ bottom: 200px;
+}
+
+
+.our-mission .quote-icon {
+  position: absolute;
+  opacity: 0.2;
+  height: 80px;
+  margin-right: 1500px;
+  bottom: 240px;
+}
+
+
+.designation {
+  text-align: justify;
+  width: 70%;
+}
+
+@media (max-width: 700px) {
+  .our-team {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .team-member img {
+    height: 250px;
+    width: 280px;
+    object-fit: cover;
+  }
+}

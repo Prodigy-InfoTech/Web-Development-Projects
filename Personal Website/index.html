@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="wrapper">
+        <nav class="sticky nav-bar">
+            <a href="#" class="toggle_button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="left">Personal Website</div>
+            <div class="right">
+                <ul class="links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#qualifications_main">Qualificatitons</a></li>
+                    <li><a href="#projects_main">Projects</a></li>
+                    <li><a href="#contact_main">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main id="home">
+        <section class="firstsection">
+            <img src="images/img4.png">
+
+
+        </section>
+        <section class=" secondsection">
+            <div class="hello">Hello</div>
+            <div class="about">A Bit About Me</div>
+            <div class="content">
+                This is paragraph write you work Experience. <br>
+                    Add your own content and make changes to the font.
+            </div>
+        </section>
+
+    </main>
+    <main id="skills_main">
+        <section id="skills">
+            <h1 class="heading">Skills</h1>
+            <div class="Container">
+
+                <p class="para">SKILL 1</p>
+                <div class="container">
+                    <div class="skills"> SKILL 1 </div>
+
+                </div>
+
+                <p class="para">SKILL 2</p>
+                <div class="container">
+                    <div class="skills">SKILL 2</div>
+                </div>
+
+                <p class="para">SKILL 3</p>
+                <div class="container">
+                    <div class="skills">SKILL 3</div>
+                </div>
+
+                <p class="para">SKILL 4</p>
+                <div class="container">
+                    <div class="skills">SKILL 4</div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <main id="qualifications_main">
+        <h1 class="heading1">Qualificatitons</h1>
+        <section class="qualifications">
+            <div class="qualification">Educational Qualifications</div>
+            <div class="qualification">
+                <ul>
+                    <li class="education">
+                        <div>BTech Computer Science And Engineering</div>
+                        <div>Manav Rachna International Institute of Research and Science</div>
+                        <div>(2023-2027)</div>
+                    </li>
+
+                    <li class="education">
+                        <div>Senior Secondary School</div>
+                        <div>Manav Rachna International School</div>
+                        <div>(2021-2023)</div>
+                    </li>
+                    <li class="education">
+                        <div>Secondary School</div>
+                        <div>Taksh-Shila Model School</div>
+                        <div>(2017-2021)</div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <hr>
+        <br>
+        <br>
+        <section class="qualifications">
+            <div class="qualification">Work Experience</div>
+            <div class="qualification">
+                <ul>
+                    <li class="education">
+                    This is paragraph write you work Experience. <br>
+                    Add your own content and make changes to the font.
+                    </li>
+                    This is paragraph write you work Experience. <br>
+                    Add your own content and make changes to the font.
+
+                    <li class="education">
+
+                    </li>
+                    <li class="education">
+
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <main id="projects_main">
+        <h1 class="heading1">Projects</h1>
+        <section class="projects">
+            <ul>
+                <li>
+                    <div class="project" id="personal_portfolio">Personal Portfolio Project</div>
+                </li>
+                <br>
+                <li>
+                    <div class="project description">My Personal Portfolio Website made using </div>
+                    <div class="project description">HTML, CSS and JavScript.</div>
+                    <button class="button" type="button"><a href="./index.html" target="_blank">Read More</a></button>
+                </li>
+            </ul>
+            <div class="project">
+                <ul>
+                    <li class="project1">
+                        <div><img src="images/personal_portfolio.png" alt=""></div>
+
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <main id="contact_main">
+        <section class="contact">
+            <h1 class="heading1">Contact Me</h1>
+            <form id="contact-form" onsubmit="sendmail(); reset(); return false;">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter your name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Enter your name" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Enter your name" rows="4" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+            <div id="response"></div>
+        </section>
+    </main>
+    <footer>
+        <div class=" rightfooter">  
+            <ul>
+                <li class="logos"><a href="https://www.linkedin.com" target="_blank"><img
+                            src="images/linkedin.png" alt="as"></a></li>
+                <li class="logos"><a href="https://github.com" target="_blank"><img src="images/social.png"
+                            alt="as"></a></li>
+                <li class="logos"><a href="https://twitter.com" target="_blank"><img src="images/x.png"
+                            alt="as"></a>
+                </li>
+                <li class="logos"><a href="https://www.instagram.com" target="_blank"><img
+                            src="images/instagram.png" alt="as"></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendmail() {
+            Email.send({
+                Host: "smtp.gmail.com",
+                Username: "test123@gmail.com",
+                Password: "test@123",
+                To: 'test123@gmail.com',
+                From: document.getElementById('email').value,
+                Subject: "Subject",
+                Body: "And this is the body"
+            }).then(
+                message => alert(message)
+            );
+        }
+    </script>
+</body>
+
+</html>

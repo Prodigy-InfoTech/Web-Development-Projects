@@ -1,0 +1,396 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(1, 5, 17);
+    color: #dbe8ff;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+nav {
+    /* background-color: rgb(40, 22, 22); */
+    /* color: white; */
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 20px;
+    margin: 12px;
+    padding: 12px;
+}
+
+a:hover {
+    cursor: pointer;
+    color: aquamarine;
+}
+
+.left {
+    font-size: 25px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.secondsection {
+    /* font-size: 3rem; */
+    /* background-color: red; */
+    width: 30%;
+    margin-top: 45px;
+
+}
+
+.hello {
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: "Trirong", serif;
+}
+
+.about {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: "Trirong", serif;
+}
+
+.content {
+    font-family: "Trirong", serif;
+}
+
+.firstsection {
+    /* background-color: blue; */
+    width: 30%;
+    margin: 10px 100px;
+    padding: 10px;
+}
+
+.firstsection img {
+    height: 380px;
+    width: 380px;
+    border-radius: 190px;
+    margin-top: 95px;
+}
+
+footer {
+    display: flex;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+
+footer ul {
+    display: flex;
+
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li img {
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+    padding: 5px;
+}
+
+footer ul li img:hover {
+    cursor: pointer;
+}
+
+.left:hover {
+    cursor: pointer;
+    color: aquamarine;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active {
+    color: aquamarine;
+}
+
+.skills_main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.container {
+    width: 500px;
+    background-color: #ddd;
+    border-radius: 20px;
+}
+
+.skills {
+    text-align: center;
+    color: #150e5c;
+    border-radius: 20px;
+    background-color: #727fbb;
+}
+
+
+.para {
+    padding: 15px;
+    font-size: 1.25rem;
+    font-family: "Trirong", serif;
+}
+
+
+.heading {
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.heading1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    margin: 20px;
+    padding: 20px;
+}
+
+.heading2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    margin: 20px;
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+.qualification {
+    margin-left: 115px;
+    padding-left: 115px;
+    font-size: 1.3rem;
+}
+
+.project {
+    margin-left: 115px;
+    padding-left: 115px;
+    font-size: 1.3rem;
+}
+
+.qualifications {
+    display: flex;
+}
+
+.projects {
+    display: flex;
+}
+
+.education {
+    padding-bottom: 20px;
+}
+
+.project1 {
+    padding-bottom: 20px;
+}
+
+hr {
+    width: 80%;
+    margin-left: 120px;
+}
+
+#qualifications_main {
+    display: block;
+}
+
+#projects_main {
+    display: block;
+}
+
+#personal_portfolio {
+    font-weight: bold;
+}
+
+.button{
+    width: 140px;
+    border-radius: 10px;
+    box-shadow: none;
+    margin-left: 230px;
+    margin-top: 15px;
+    height: 45px;
+    background-color: #150e5c;
+}
+.project1 img{
+    height: 200px;
+    width: 400px;
+    margin-left: -50px;
+}
+.button a{
+    background-color: #150e5c;
+}
+
+.contact {
+    text-align: center;
+    padding: 20px;
+}
+
+.contact h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label, input, textarea {
+    margin-bottom: 10px;
+    
+}
+
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 18px;
+    width: 150px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#response {
+    margin-top: 20px;
+}
+
+    /* For screens smaller than 768px (e.g., smartphones) */
+@media (max-width: 1068px) {
+    nav {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .sticky {
+        position: static;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 8px;
+        padding: 8px;
+    }
+
+    .secondsection,
+    .firstsection {
+        width: 100%;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .firstsection img {
+        width: 80%;
+        max-width: 300px;
+        margin: 20px auto;
+    }
+
+    .button {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .project1 img {
+        width: 80%;
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .qualification,
+    .project {
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .hello {
+        font-size: 3rem;
+    }
+    
+    .about {
+        font-size: 1.25rem;
+    }
+    
+    .content {
+        font-size: 1rem;
+    }
+    
+    .para {
+        font-size: 1rem;
+    }
+    
+    .heading,
+    .heading1,
+    .heading2 {
+        font-size: 2rem;
+    }
+    footer {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        padding: 10px;
+        background-color: rgb(1, 5, 17);
+    }
+    .button {
+        width: 140px;
+        border-radius: 10px;
+        box-shadow: none;
+        margin: 15px auto;
+        height: 45px;
+        background-color: #150e5c;
+    }
+    .project1 img {
+        max-width: 100%;
+        height: auto;
+    }
+                
+}
+

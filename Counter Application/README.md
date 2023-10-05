@@ -1,6 +1,6 @@
-# Counter App
+# Counter Application
 
-This is a simple counter app built using HTML, CSS, and JavaScript. It allows you to increase, decrease, and reset a counter value.
+This is a simple counter application built using HTML, CSS, and JavaScript. It allows you to increase, decrease, and reset a counter value.
 
 ## Table of Contents
 

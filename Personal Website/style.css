@@ -296,3 +296,101 @@ button:hover {
     margin-top: 20px;
 }
 
+    /* For screens smaller than 768px (e.g., smartphones) */
+@media (max-width: 1068px) {
+    nav {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .sticky {
+        position: static;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 8px;
+        padding: 8px;
+    }
+
+    .secondsection,
+    .firstsection {
+        width: 100%;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .firstsection img {
+        width: 80%;
+        max-width: 300px;
+        margin: 20px auto;
+    }
+
+    .button {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .project1 img {
+        width: 80%;
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .qualification,
+    .project {
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .hello {
+        font-size: 3rem;
+    }
+    
+    .about {
+        font-size: 1.25rem;
+    }
+    
+    .content {
+        font-size: 1rem;
+    }
+    
+    .para {
+        font-size: 1rem;
+    }
+    
+    .heading,
+    .heading1,
+    .heading2 {
+        font-size: 2rem;
+    }
+    footer {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        padding: 10px;
+        background-color: rgb(1, 5, 17);
+    }
+    .button {
+        width: 140px;
+        border-radius: 10px;
+        box-shadow: none;
+        margin: 15px auto;
+        height: 45px;
+        background-color: #150e5c;
+    }
+    .project1 img {
+        max-width: 100%;
+        height: auto;
+    }
+                
+}
+

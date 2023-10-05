@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto',arial,sans-serif;
+}
+html,body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #686de0;;
+  overflow: hidden;
+  padding: 20px;
+}
+.container{
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1),0 6px 6px rgba(0, 0, 0, 0.1);
+  padding: 60px 20px;
+  /* padding-bottom: 200px; */
+  text-align: center;
+  width: 800px;
+}
+h3{
+  opacity: 0.5;
+  /* letter-spacing: 1.2px; */
+}
+.quote{
+  font-size: 30px;
+  /* letter-spacing: 1px; */
+  line-height: 40px;
+  margin: 50px auto;
+  max-width: 600px;
+}
+.button{
+  background-color: #8317ff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 14px 40px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+.button:focus{
+  outline: 0;
+}
+.button:hover{
+  background-color: #a14fff;
+}
+.button:active{
+  transform: scale(0.98);
+}
+.button-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#button{
+  width: 200px;
+}
+.submit-container{
+  display: flex;
+  column-gap: 5px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.user-input{
+  width: 450px;
+  padding: 0 10px;
+  font-size: 18px;
+  outline: none;
+}
+footer{
+  margin-top: 30px;
+  margin-bottom: -60px;
+  margin-left: -20px;
+  border-bottom-left-radius: 20px;
+  margin-right: -20px;
+  border-bottom-right-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.1);
+  z-index: -1;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+footer a{
+  margin-right: 20px;
+  margin-bottom: 25px;
+  font-size: 24px;
+  color: #5500b7;
+}
+a:hover{
+  color: #a150ff;
+}
+p {
+  margin-bottom: 10px;
+}
+@media (max-width: 400px){
+  footer{
+    font-size:17px;
+  }
+}
+@media (max-width: 350px){
+  footer{
+    font-size:15px;
+  }
+}

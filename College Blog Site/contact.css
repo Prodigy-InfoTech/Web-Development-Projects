@@ -1,0 +1,196 @@
+.logo img {
+    width: 100px;
+    height: 80px;
+    margin-left: 0px;
+    margin-top: 4px !important;
+}
+
+.nav-left ul li a::after {
+    content: '';
+    width: 0;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    background: rgb(133, 3, 3);
+    bottom: -7px;
+    transition: 0.5s;
+    margin-bottom: 6px;
+
+}
+
+.nav-left ul li a:hover::after {
+    width: 100%;
+
+}
+
+nav {
+    text-align: center;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+
+.contact {
+    text-align: center;
+    justify-content: center;
+
+}
+
+.container {
+    margin-top: 160px;
+
+}
+
+#header {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    list-style: none;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+p {
+    font-weight: bold;
+}
+
+#about {
+    display: none;
+}
+
+.contact-left {
+    flex-basis: 45%;
+    margin-top: 90px;
+    font-size: 20px;
+
+}
+
+.contact-left p {
+    margin-top: 30px;
+}
+
+.contact-left p i {
+    /* color:#930d0d ;*/
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.social-icons {
+    margin-top: 30px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    font-size: 28px;
+    margin-right: 16px;
+    color: #870012;
+    display: inline-block;
+    transition: transform 0.5s;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.social-icons a:hover {
+    color: #ff0000;
+    transform: translateY(-6px);
+
+}
+
+.btn4 {
+    text-decoration: none;
+    font-family: serif;
+    background-color: white;
+    font-size: 20px;
+    cursor: pointer;
+    color: #262626;
+    padding: 60px;
+    transition: transform 0.5s;
+    font-weight: bold;
+    justify-content: center;
+    border-radius: 8px;
+    padding-bottom: 6px;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.btn4:hover {
+    background-color: #9f0303;
+    color: white;
+    transform: translateY(-1px);
+}
+.contact-right{
+   margin-bottom: 19px;
+   position: relative;
+}
+.contact-right h1 {
+    font-weight: bold;
+    font-size: 50px;
+    font-family: serif;
+}
+
+.contact-right form {
+    width: 100%;
+    margin-top: 10px;
+}
+
+form input,
+form textarea {
+    font-family: serif;
+    width: 70%;
+    border: 0;
+    outline: none;
+    background: rgb(255, 255, 255);
+    padding: 17px;
+    margin: 15px 0;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border-radius: 7px;
+    position: relative;
+    max-height: 70px;
+    border: 2px solid black;
+}
+form h3{
+    margin-left: 1300px;
+}
+form .btn2 {
+    padding: 12px 50px;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    padding: 100px 0;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 800px;
+    margin-left: 50px !important;
+
+}
+
+#pimpri {
+    text-align: center;
+}
+.footer{
+    margin-top: 900px;
+    margin-right: 48
+    0px;
+    text-align: center;
+    /* justify-content: center; */
+    font-size: 30px;
+}
+.copyright i {
+    color: white;
+    text-align: center;
+}
+
+nav .fas-solid {
+    margin-left: px;
+}

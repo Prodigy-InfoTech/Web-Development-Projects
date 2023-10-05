@@ -1,0 +1,19 @@
+@media  screen and (max-width:1200px){
+    .navigation{
+        flex-direction: column;
+        margin-bottom: 23px;
+    }
+    .nav-left{
+        flex-direction: column;
+        text-align: center;
+    }
+    .content-right {
+        display: none;
+    }
+    .home-article {
+        flex-direction: column;
+    }
+    .home-article img{
+        text-align: center;
+    }
+}

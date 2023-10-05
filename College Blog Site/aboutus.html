@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="about.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/themes/odometer-theme-default.min.css" />
+</head>
+
+<body>
+  <div class="about-container">
+    <div class="profile-image">
+      <img src="DPU.png" alt="" />
+    </div>
+
+    <div class="description">
+      <hr>
+      <p>
+        <Strong>
+          We are a group of 5 geeks and pursuing BE from DIT, Pimpri. One sunny day, we were brainstorming and
+          discussing ideas about what could we do for our Project based learning. It was at this moment a thought struck
+          our mind what if we create a platform for our college students where they can post their blogs, then there
+          won't hassle in posting to some other platform. Here your blogs can directly be accessed by the other college
+          students and you can get more outreach and experience.
+        </Strong>
+      </p>
+
+    </div>
+
+    <div class="projects-container">
+      <div class="project">
+        <h3 class="project-name">Websites Designed</h3>
+        <div class="project-number odometer websites-designed">0</div>
+      </div>
+
+      <div class="project">
+        <h3 class="project-name">Apps Developed</h3>
+        <div class="project-number odometer apps-developed">0</div>
+      </div>
+    </div>
+
+    <h2 class="our-team-heading">Our Team</h2>
+
+    <div class="our-team">
+      <div class="team-member">
+        <img src="manik.jpg" alt="" />
+        <div class="designation">
+          <strong>Manik Sharma</strong> (Project Manager)
+        </div>
+      </div>
+
+      <div class="team-member">
+        <img src="shivali.jpg" alt="" />
+        <div class="designation">
+          <strong>Shivali Sharma</strong> (Lead Designer)
+        </div>
+      </div>
+
+      <div class="team-member">
+        <img src="img3.jpeg" alt="" />
+        <div class="designation">
+          <strong>Jatin Sharma</strong> (Lead Programmer)
+        </div>
+      </div>
+
+    </div>
+    <div class="team-member1">
+      <img src="dhruvimg.jpeg" alt="" />
+      <div class="designation">
+        <strong>Dhruv</strong> (Subject Matter Expert)
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="team-member2">
+    <img src="anshu.jpeg" alt="" />
+    <div class="designation">
+      <strong>Ansh Choudhary</strong> (Quality Assurance Analyst)
+    </div>
+  </div>
+  </div>
+  </div>
+  <div class="our-mission">
+    <img class="quote-icon" src="images/quote-icon.png" alt="quote-icon" />
+    <p>Our mission is to provide the best services to our clients.</p>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/odometer.min.js"></script>
+
+  <script>
+    const websitesDesigned = document.querySelector(".websites-designed");
+    const appsdeveloped = document.querySelector(".apps-developed");
+
+    setTimeout(() => {
+      websitesDesigned.innerHTML = "22";
+      appsdeveloped.innerHTML = "36";
+    }, 400);
+  </script>
+</body>
+
+</html>

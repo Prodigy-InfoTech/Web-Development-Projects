@@ -18,7 +18,14 @@ API used : "https://type.fit/api/quotes"
 
 ## Demo
 
-![Screenshot (205)](https://user-images.githubusercontent.com/118271901/272627335-f5862207-e0d5-49b6-b024-567e23f984fd.png)
+![image](https://github.com/tejus05/Web-Development-Projects/assets/118271901/3f0465c6-97d1-4250-b6c3-ffc2ef2cf56d)
+
+![image](https://github.com/tejus05/Web-Development-Projects/assets/118271901/4ead3c7f-c300-4cb2-8e28-75c93ee2cd69)
+
+![image](https://github.com/tejus05/Web-Development-Projects/assets/118271901/bb6d84a7-bcf9-48cb-a8bb-7e7c274bd304)
+
+
+
 
 ## Features
 

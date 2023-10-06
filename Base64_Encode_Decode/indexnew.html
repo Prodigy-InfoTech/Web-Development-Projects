@@ -1,0 +1,16 @@
+<h1>{{.Title}}</h1>
+<div>Enter the string you want to Change in Image.</div>
+<form action="generator/" method=post>
+    <input type="text" name="dataString" size="50"><br>
+    <input type="submit" value="Submit">
+</form>
+<h1>Image To Base64</h1>
+
+<form
+      enctype="multipart/form-data"
+      action="upload/"
+      method="post"
+    >
+      <input type="file" name="myFile" />
+      <input type="submit" value="upload" />
+    </form>

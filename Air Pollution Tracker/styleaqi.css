@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #A2D2FF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    /* font-family: 'Poppins'; */
+}
+
+#home{
+    height: 100vh;
+    /* background-color: #A2D2FF; */
+    background-image:url(./assets/images/homepage.png);
+    background-size:auto;
+    background-position: center;
+    background-attachment: fixed;
+}
+.heading{
+    box-shadow: 5px 10px 10px 5px rgb(65, 236, 108);
+
+    width: fit-content;
+    background-color: #000000d0;
+    padding: 2%;
+    margin-top: 2%;
+    border-radius: 30px;
+    margin-bottom: 2%;
+}
+.head{
+    color: white;
+    font-size: 2rem;
+    font-weight: bolder;
+    padding: 5% 0;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    /* background-image: url(./assets/images/homepage.png); */
+
+}
+.search{
+    background-color: #000000d0;
+    font-size: 1rem;
+    max-width: 420px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 100px;
+    padding: 2%;
+    box-shadow: 5px 10px 10px 5px rgb(65, 236, 108);
+}
+input{
+    border: none;
+    font-size: 1rem;
+    background:  transparent;
+    background-color:#A2D2FF;
+    border-radius: 5px;
+    height: 20px;
+
+}
+
+.search-btn{
+    margin: 1em;
+    align-items: center;
+    border: none;
+    width: 100px;
+    height: 30px;
+    background-color: #A2D2FF;
+    font-weight: bold;
+    opacity: 0.8;
+    /* color: white; */
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    position: absolute;
+    top: 25%;
+    padding: 2%;
+    color: white;
+    opacity: 0.9;
+    filter: brightness(1);
+}
+.aq{
+    display: none;
+}
+
+#pollutants{
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.pollutants{
+    max-width: 900px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+
+}
+.pol-1:hover,.pol-2:hover,.pol-3:hover,.pol-4:hover,.pol-5:hover,.pol-6:hover{
+    background-color:   #b2f0b2;
+    transition: 0.8s;
+    transform: scale(1.2);
+}
+.pol{
+    width: 200px;
+    height: 200px;
+    background-color: #A2D2FF;
+    border-radius: 50%;
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+#about{
+    height: 100vh;
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+}
+
+.about-aqi{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+}
+
+.img img{
+    width: 300px;
+    height: 300px;
+}
+.info{
+   padding: 0 2%;
+}
+#end{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#A2D2FF;
+}
+.moto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* max-width: 800px; */
+    font-size: 2rem;
+    width: 100%;
+    background-color: white;
+    height: 50vh;
+}
+.plant-img img{
+    width: 400px;
+    height: 400px;
+}
+
+.contact{
+    background-color: #A2D2FF;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.media{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.contact{
+    color: white;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    /* padding: 50px 0; */
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .media a{
+    padding: 20px;
+}
+.contact .media a i{
+    font-size:3rem;
+    color: white;
+}
+
+
+@media  screen and (max-width:768px) {
+    #home{
+        background-size: cover;
+    }
+    .head{
+        font-size: 1rem;
+    }
+    .search{
+        max-width: 300px;
+    }
+
+.search{
+    bottom: 25%;
+}
+.about-aqi{
+    flex-direction: column;
+    max-width: 300px;
+}
+.img img{
+    width: 200px;
+    height: 200px;
+}
+.info{
+    padding: 0;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.pol{
+    width: 150px;
+    height: 150px;
+    font-size: 0.7rem;
+}
+.moto{
+    font-size: 1rem;
+    /* max-width: 300px; */
+    flex-direction: column;
+    text-align: center;
+}
+.plant-img img{
+    width: 200px;
+    height: 200px;
+}
+}
+
+.check_aqi{
+    box-shadow: 0 0 20px 0 rgba(231, 229, 229, 0.548);
+    color: rgb(195, 248, 170);
+}
+.check_aqi:hover
+{
+	transform: scale(1.4);
+	transition: 0.9s;
+	opacity: 0.6;
+}
+.o3,.co,.no2,.so2,.pm2,.pm10
+{
+    color: brown;
+}

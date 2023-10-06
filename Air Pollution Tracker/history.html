@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="history.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    
+  </head>
+  <body>
+    <div class="container">
+        
+        <div class="search">
+          <p id="results" style=" color: red;"></p>
+          <div id="st">
+            <label for="Start Date" >Start Date: </label>
+            <input type="date" class="startDate" />
+          </div>
+          <div id="ed">
+            <label for="End Date" >End Date: </label>
+            <input type="date" class="endDate" />
+          </div>
+          <button class="end">Search</button>
+        </div>
+        <div id="graph">
+          <canvas id="myChart" style="width: 100%; max-width: 1400px"></canvas>
+        </div>
+        
+    </div>
+    <script src="history_config.js"></script>
+    <script src="history_server.js"></script>
+  </body>
+</html>

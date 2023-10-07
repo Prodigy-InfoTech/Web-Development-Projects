@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ETAX Consultancy Services</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima&family=EB+Garamond&family=Lato:wght@700&family=Roboto&family=Satisfy&family=Ysabeau+Office&family=Ysabeau+SC:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <nav id="nav-bar">
+        <ul>
+            <li onclick="location.href='#about-holder'">About</li>
+            <li onclick="location.href='#our-team-holder'">Our Team</li>
+            <li onclick="location.href='#services-holder'">Services</li>
+            <li onclick="location.href='#support-holder'">Support</li>
+            <li onclick="location.href='#contact-us-holder'">Contact Us</li>
+        </ul>
+        <div id="nav-bar-div">
+            <i class="fa-solid fa-angle-down" id="down-arrow"></i>
+            <i class="fa-solid fa-angle-up" id="up-arrow"></i>
+        </div>
+    </nav>
+
+    <div id="image-holder">
+        <div id="title-holder">
+            <img id="logo" src="images/2023-06-25.png"></img>
+            <div id="title">
+                ETAX Consultancy
+            </div>  
+            <div id="title-text">
+                Taxation made easy
+            </div>
+        </div>
+    </div>
+
+    <div id="about-holder">
+        <div id="about-left">
+            <div id="about-title">
+                About Us
+            </div>
+            <div id="about-content">
+                ETAX is a tax consultancy corporation, a trusted partner in your 
+                financial success. With a dedicated team of experienced accountants, we are here to 
+                provide you with top-notch tax services and expert advice tailored to your unique needs.
+                <br><br>
+                At our corporation, we understand the ever-changing tax landscape and the challenges 
+                it presents to individuals and businesses alike. Our team of accountants stays at the
+                forefront of tax laws, regulations, and industry trends to ensure that you receive 
+                accurate and up-to-date guidance.
+                <br><br>
+                Whether you are seeking strategic tax planning, compliance assistance, or specialized 
+                advisory services, we have the expertise to help you navigate through complex tax matters. We take the time to understand your goals and objectives, allowing us to develop customized strategies that minimize your tax liabilities while maximizing your tax benefits.
+                <br><br>          
+            </div>
+        </div>
+        <div id="about-right">
+
+        </div>
+    </div>
+
+    <div id="our-team-holder">
+        <div style="text-align: center;">
+            <a id="our-team-title">
+                Our Team
+            </a>
+        </div>
+        <div id="our-team-container">
+            <div id="profile">
+                <div style="position: absolute; width : 400px; text-align: center;">
+                    <img src="images/person-1.jpg" id="profile-picture">
+                    <div id="profile-name">Edward Waterman</div>
+                    <div id="profile-qualifications">
+                        CA (Chartered Accountant)
+                        <img src="images/ca-logo.png" id="ca-logo">
+                        <br>
+                        L.L.B (Bachelor of Laws)
+                    </div>
+                </div>
+                <div id="profile-details">
+                    I am an accountant with several years of experience in financial management and
+                    analysis. I have a solid foundation in accounting principles and regulations, 
+                    and I am well-versed in preparing financial statements, conducting audits, and 
+                    ensuring compliance with tax laws. Throughout my career, I have worked with a 
+                    diverse range of clients, including individuals, small businesses, and corporations. 
+                </div>
+            </div>
+            <div id="profile">
+                <div style="position: absolute; width : 400px; text-align: center;">
+                    <img src="images/person-2.jpg" id="profile-picture">
+                    <div id="profile-name">John Van Gogh</div>
+                    <div id="profile-qualifications">
+                        B.Economics
+                        <br>
+                        M.B.A. (Bussiness Administration)
+                    </div>
+                </div>
+                <div id="profile-details">
+                    I am a financial analyst with a strong background in analyzing and interpreting 
+                    financial data. I have a keen eye for detail and a passion for uncovering insights 
+                    that drive informed financial decisions. With a solid foundation in finance and a 
+                    deep understanding of market trends, I specialize in conducting thorough financial 
+                    research, performing risk assessments, and providing recommendations to optimize 
+                    investment strategies. 
+                </div>
+            </div>
+            <div id="profile">
+                <div style="position: absolute; width : 400px; text-align: center;">
+                    <img src="images/person-3.jpg" id="profile-picture">
+                    <div id="profile-name">Cliff Booth</div>
+                    <div id="profile-qualifications">
+                        CA (Chartered Accountant)
+                        <img src="images/ca-logo.png" id="ca-logo">
+                        <br>
+                        B.Com (Commerce)
+                    </div>
+                </div>
+                <div id="profile-details">
+                    I am a tax consultant with a deep understanding of tax laws, regulations, and 
+                    practices. I have dedicated my career to assisting individuals and businesses 
+                    in effectively managing their tax obligations. With a strong foundation in 
+                    accounting and tax planning, I specialize in providing strategic tax advice, 
+                    ensuring compliance, and optimizing tax positions. I have worked with diverse clients, ranging from small businesses to 
+                    multinational corporations.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="values-outer-title">
+        Quality of Service
+    </div>
+    <div id="values-holder">
+        <div id="values-container">
+            <div id="values-header">
+                <div class="values-title" id="vt-1" onclick="showvc1()" style="background-color : aliceblue; color : black;">
+                    Expertise and Knowledge
+                </div>
+                <div class="values-title" id="vt-2" onclick="showvc2()">
+                    Customized Solutions
+                </div>
+                <div class="values-title" id="vt-3" onclick="showvc3()">
+                    Ethical Standards and Compliance
+                </div>
+            </div>
+            <div class="values-content" id="vc-1" style="display : block;">
+                At ETAX Consultancy, we pride ourselves on our exceptional expertise and in-depth 
+                knowledge of tax laws, regulations, and best practices. Our team of highly skilled 
+                professionals stays at the forefront of the ever-changing tax landscape, ensuring 
+                that we provide you with accurate, up-to-date advice and solutions.
+                <br><br>
+                Our expertise allows us to:
+                <br>
+                <ul>
+                    <li>
+                        Interpret Complex Tax Laws: We have a deep understanding of the intricacies 
+                        of tax laws and can decipher complex regulations to provide you with clear 
+                        guidance on your tax obligations.
+                    </li>
+                    <li>
+                        Identify Opportunities: Our experienced tax consultants have a keen eye for 
+                        identifying tax planning opportunities that can help optimize your tax position. 
+                        We stay informed about the latest tax incentives, credits, and deductions, 
+                        enabling us to maximize your tax benefits.
+                    </li>
+                    <li>
+                        Mitigate Risks: We assess potential risks and proactively help you manage your 
+                        tax exposures. By ensuring compliance with tax laws and assisting with accurate 
+                        reporting, we minimize the likelihood of penalties, audits, and other 
+                        compliance-related issues.
+                    </li>
+                </ul>
+            </div>
+            <div class="values-content" id="vc-2">
+                At ETAX Consultancy, we understand that your tax needs are unique. We believe in 
+                providing tailored solutions that address your specific circumstances, financial 
+                goals, and industry requirements.
+                <br><br>
+                Our customized solutions include:
+                <br>
+                <ul>
+                    <li>
+                        Individualized Tax Planning: We take the time to understand your financial 
+                        situation and goals to develop a tax plan that aligns with your needs. Our 
+                        experts work closely with you to identify tax-efficient strategies that help 
+                        you achieve your objectives while minimizing tax liabilities.
+                    </li>
+                    <li>
+                        Industry-Specific Expertise: Our team comprises specialists who have in-depth 
+                        knowledge of various industries. We offer industry-specific insights and 
+                        strategies that take into account the unique tax considerations of your sector, 
+                        ensuring that you receive targeted advice tailored to your industry's regulatory 
+                        framework.
+                    </li>
+                    <li>
+                        Long-Term Tax Strategies: We don't just focus on short-term gains; we develop 
+                        long-term tax strategies that adapt to your evolving circumstances. Our 
+                        forward-thinking approach ensures that your tax planning remains effective and 
+                        aligned with your future goals.
+                    </li>
+                </ul>
+            </div>
+            <div class="values-content" id="vc-3">
+                When you choose ETAX Consultancy, you can rest assured that we maintain 
+                the highest ethical standards and ensure full compliance with tax laws and regulations.
+                <br><br>
+                Our commitment to ethical standards and compliance includes:
+                <br>
+                <ul>
+                    <li>
+                        Confidentiality and Privacy: We treat your financial and personal information 
+                        with utmost care and respect. Confidentiality and privacy are integral to our 
+                        operations, and we have strict protocols in place to safeguard your data in 
+                        compliance with data protection laws.
+                    </li>
+                    <li>
+                        Transparent and Honest Communication: We believe in open and honest 
+                        communication. We break down complex tax concepts into clear, understandable 
+                        terms, ensuring you have a comprehensive understanding of your tax situation. 
+                        We provide transparent advice, outlining the risks, benefits, and available 
+                        options, empowering you to make informed decisions.
+                    </li>
+                    <li>
+                        Compliance Assurance: Our team is dedicated to maintaining strict compliance 
+                        with tax laws and regulations. We stay up-to-date with changes in tax 
+                        legislation, ensuring your tax returns and reporting are accurate, complete, 
+                        and submitted on time.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="services-holder">
+        <div id="services-title">
+            Services we provide : 
+        </div>
+        <div id="services-content">
+            <ul>
+                <li id="services-header">
+                    <i class="fa-solid fa-check" id="tick"></i>
+                    Income tax Return Filing
+                    <div id="services-details">
+                        At ETAX Consultancy, we understand that income tax filing can be a daunting 
+                        task. That's why we offer a comprehensive and hassle-free income tax filing 
+                        service, tailored to meet your individual needs. With our expertise and 
+                        commitment to excellence, we ensure that your income tax returns are accurate, 
+                        compliant, and filed on time.
+                    </div>
+                </li>
+                <li id="services-header">
+                    <i class="fa-solid fa-check" id="tick"></i>
+                    GST Tax Filing
+                    <div id="services-details">
+                        Are you overwhelmed by the complexities of Goods and Services Tax (GST) 
+                        compliance? Look no further! At ETAX Consultancy, we offer expert 
+                        GST filing services that ensure seamless and accurate compliance with GST 
+                        regulations. With our comprehensive understanding of the GST framework, 
+                        personalized approach, and commitment to excellence, we make GST filing a 
+                        breeze for businesses of all sizes.
+                    </div>
+                </li>
+                <li id="services-header">
+                    <i class="fa-solid fa-check" id="tick"></i>
+                    Financial and Loan Property
+                    <div id="services-details">
+                        Are you seeking expert guidance and solutions for your financial and loan 
+                        property needs? Look no further! At ETAX Consultancy, we offer 
+                        comprehensive services tailored to help you navigate the complex world of 
+                        finance and loans. With our extensive knowledge, personalized approach, and 
+                        commitment to excellence, we provide the guidance and support you need to make 
+                        informed financial decisions and manage your loan properties effectively.
+                    </div>
+                </li>
+            </ul>
+            <ul>
+                <li id="services-header">
+                    <i class="fa-solid fa-check" id="tick"></i>
+                    Accounting Services
+                    <div id="services-details">
+                        Are you in search of reliable and professional accounting services? Look no 
+                        further! At ETAX Consultancy, we offer a wide range of comprehensive 
+                        accounting services designed to meet the unique needs of businesses and 
+                        individuals. With our expertise, attention to detail, and commitment to 
+                        excellence, we provide accurate financial insights, streamline your accounting 
+                        processes, and help you make informed financial decisions.
+                    </div>
+                </li>
+                <li id="services-header">
+                    <i class="fa-solid fa-check" id="tick"></i>
+                    Company Law Services
+                    <div id="services-details">
+                        Are you in need of expert guidance and comprehensive solutions for your company 
+                        law matters? Look no further! At ETAX Consultancy, we offer a wide 
+                        range of company law services designed to meet the diverse needs of businesses. 
+                        With our in-depth knowledge, experience, and commitment to excellence, we 
+                        provide tailored solutions that ensure compliance, mitigate risks, and support 
+                        your business growth.
+                    </div>
+                </li>
+                <li id="services-header">
+                    <i class="fa-solid fa-check" id="tick"></i>
+                    Investment Advisory Services
+                    <div id="services-details">
+                        Are you looking for professional guidance and expert insights to make informed 
+                        investment decisions? Look no further! At ETAX Consultancy, we offer 
+                        comprehensive investment advisory services designed to help individuals and 
+                        businesses achieve their financial goals. With our extensive market knowledge, 
+                        personalized approach, and commitment to excellence, we provide tailored 
+                        investment strategies that maximize returns while minimizing risks.
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="review-outer-title">
+        Hear what our customers say ...
+    </div>
+    <div id="review-holder">
+        <div id="review">
+                <div style="width : 60px; display : flex; flex-direction: column; justify-content: center;">
+                    <a id="prev" onclick="slideshowPrev()"><i class="fa-solid fa-arrow-left"></i></a>
+                </div>
+                <div class="slide" style="display: block;">
+                    <img id="review-image" src="images/person-4.jpg">
+
+                    </img>
+                    <div id="review-name">
+                        Varunkumar R
+                    </div>
+                    <div id="review-text">
+                        I have been using the services of ETAX Consultancy for several years 
+                        now, and I can confidently say that they are exceptional in their field. 
+                        Their team of tax experts is highly knowledgeable, professional, and dedicated 
+                        to providing top-notch service. They have helped me navigate complex tax laws 
+                        and regulations, ensuring that I am fully compliant and maximizing my tax 
+                        benefits. Their attention to detail and personalized approach sets them apart 
+                        from other firms. I highly recommend ETAX Consultancy to anyone in need 
+                        of reliable and expert tax consultancy services.
+                    </div>
+                </div>
+                <div class="slide" style="display: none;">
+                    <img id="review-image" src="images/person-5.jpg">
+
+                    </img>
+                    <div id="review-name">
+                        Dinesh Kumar S
+                    </div>
+                    <div id="review-text">
+                        I had the pleasure of working with ETAX Consultancy during a challenging 
+                        tax situation, and I must say they exceeded my expectations. Their team of 
+                        accountants demonstrated exceptional expertise and professionalism throughout 
+                        the process. They took the time to thoroughly understand my situation, provided 
+                        clear explanations, and guided me through the entire tax resolution process. 
+                        They were prompt in their responses, and their attention to detail was impressive.
+                        I am grateful for their assistance and highly recommend ETAX Consultancy 
+                        for anyone seeking reliable and effective tax consultancy services.
+                    </div>
+                </div>
+                <div class="slide" style="display: none;">
+                    <img id="review-image" src="images/person-6.jpg">
+
+                    </img>
+                    <div id="review-name">
+                        Metta Surrendhar
+                    </div>
+                    <div id="review-text">
+                        I have been a client of ETAX Consultancy for several years, and they 
+                        have consistently delivered outstanding service. Their team of tax consultants 
+                        is proactive, knowledgeable, and always up to date with the latest tax 
+                        regulations. They provide valuable advice and insights, helping me make informed 
+                        financial decisions and minimize my tax liabilities. I am particularly impressed
+                        with their personalized approach and attention to detail. They truly go above 
+                        and beyond to ensure that their clients' needs are met. I highly recommend 
+                        ETAX Consultancy for their exceptional tax consultancy services.
+                    </div>
+                </div>
+                <div style="width : 60px; display : flex; flex-direction: column; justify-content: center;">
+                    <a id="next" onclick="slideshowNext()"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+        </div>
+    </div>
+
+    <div id="support-holder">
+        <div id="support">
+            <div id="support-title">For any queries, reach to us</div>
+            <div id="support-number">1800-234-5679</div>
+        </div>
+        <div style="display: flex; flex-direction: column; justify-content: center;">
+            <img src="images/customer-service-icon.png" width="200" height="200">
+        </div>
+    </div>
+
+    <div id="contact-us-holder">
+        <div id="contact-text-container">
+            <div id="contact-title">
+                Contact Us :
+            </div>
+            <br>
+
+            <div id="contact-content">
+                etax@gmail.com
+                <br>
+                <br>
+                1800-234-5679
+            </div>
+        </div>
+        <div id="contact-map-holder">
+            <div id="contact-map-title">
+                Our Office :
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d700.489305005013!2d80.17029109694849!3d13.035748290374501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1687754454765!5m2!1sen!2sin" width="100%" height="80%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/79024afe11.js" crossorigin="anonymous"></script>
+</body>
+</html>

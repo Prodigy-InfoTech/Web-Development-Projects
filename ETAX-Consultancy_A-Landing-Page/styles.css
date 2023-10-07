@@ -1,0 +1,558 @@
+@keyframes slideRight {
+    from {
+        width          : 0px;
+    }
+    to {
+        width          : 165px;
+    }
+}   
+
+@keyframes slideRightProfile {
+    from {
+        transform      : scaleX(0);
+    }
+    to {
+        transform      : scaleX(400px);
+    }
+}  
+
+@keyframes slideDown {
+    from {
+        transform      : scaleY(0);
+    }
+    to {  
+        transform      : scaleY(1);
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity        : 0.4;
+    }
+    to {
+        opacity        : 1; 
+    }
+}
+
+html {
+    scroll-behavior    : smooth;
+}
+
+body {
+    background         : rgb(32, 32, 32);
+    margin             : 0;
+}
+
+#nav-bar {
+    background         : rgb(32, 32, 32);
+    width              : 100%;
+    height             : 100px;
+    position           : absolute;
+    z-index            : 1;
+    transform          : translateY(-100px);
+}
+
+#nav-bar > ul {
+    list-style         : none;
+    margin             : 0;
+    padding            : 0;
+    display            : flex;
+    justify-content    : center;
+}
+
+#nav-bar li {
+    color              : #ff7442;
+    width              : 15vw;
+    margin             : 30px 0 30px 0;
+    font-size          : 25px;
+    font-family        : 'Roboto', sans-serif;
+    text-align         : center;
+}
+
+#nav-bar li:hover {
+    color              : aliceblue;
+    transform          : scale(1.1);
+    cursor             : pointer;
+    transition         : 0.3s;
+}
+
+#nav-bar-div {
+    background         : rgb(0, 0, 0, 0);
+    height             : 20px;
+    margin-top         : 10px;
+    text-align         : center;
+}
+
+#nav-bar:hover {
+    transform          : translateY(0px);
+    transition         : 0.5s;
+}
+
+#up-arrow {
+    display            : none;
+}
+
+#down-arrow {
+    background         : rgb(0, 0, 0);
+    color              : white;
+    margin-top         : 0;
+    padding            : 2px 5px 2px 5px;
+    border-bottom-left-radius  : 10px;
+    border-bottom-right-radius : 10px;
+}
+
+#nav-bar:hover #up-arrow {
+    display            : inline;
+    color              : white;
+}
+
+#nav-bar:hover #down-arrow {
+    display            : none;
+}
+
+#image-holder {
+    background         : url("images/Finance.jpg") no-repeat center/cover;
+    color              : aliceblue;
+    height             : 750px;
+    display            : flex;
+    flex-direction     : column;
+    justify-content    : center;
+    cursor             : default;
+}
+
+#title-holder {
+    position           : absolute;
+    width              : 100%;
+    text-align         : center;
+}
+
+#logo {
+    width              : 120px;
+    height             : 120px;
+    border-radius      : 100px;
+}
+
+#logo:hover {
+    transform          : scale(1.2);
+    transition         : 0.3s;
+    border             : 4px solid aliceblue;
+}
+
+#title {
+    font-size          : 65px;
+    font-family        : 'Ysabeau SC', sans-serif;
+}
+
+#title-text {
+    font-size          : 25px;
+    font-family        : 'Satisfy', cursive;
+}
+
+#about-holder {
+    padding            : 50px 0 50px 0;
+    color              : aliceblue;
+    display            : flex;
+    justify-content    : space-around;
+    cursor             : default;
+}
+
+#about-left {
+    width              : 45%;
+    flex-grow          : 1;
+}
+
+#about-right {
+    background         : url("images/about-bg.jpg") no-repeat  center/cover;
+    width              : 45%;
+    height             : 500px;
+    margin-right       : 17px;
+}
+
+#about-right:hover {
+    transform          : scale(1.05);
+    transition         : 0.3s;
+}
+
+#about-title {
+    margin-left        : 5vw;
+    padding-bottom     : 5px;
+    font-size          : 40px;
+    font-family        : 'Lato', sans-serif;
+}
+
+#about-title::after {
+    content            : "";
+    display            : none;
+    width              : 165px;   
+    height             : 5px;
+    background         : #ff7442;
+}
+
+#about-title:hover::after {
+    display            : block;
+    animation-name     : slideRight;
+    animation-duration : 0.3s;
+}
+
+#about-title:hover {
+    padding-bottom     : 0px;
+}
+
+#about-content {
+    margin             : 20px 5vw 0 5vw;
+    font-size          : 20px;
+    font-family        : 'Ysabeau Office', sans-serif;
+    font-weight        : 500;
+    text-align         : justify;
+}
+
+#our-team-holder {
+    background         : aliceblue;
+    padding            : 50px 0 50px 0;
+}
+
+#our-team-title {
+    font-size          : 40px;
+    font-family        : 'Lato', sans-serif;
+    text-align         : center;
+}
+
+#our-team-container {
+    display            : flex;
+    justify-content    : space-around;
+    flex-wrap          : wrap;
+}
+
+#profile {
+    background         :#ff7442;
+    width              : 400px;
+    height             : 400px;
+    margin-top         : 50px;
+}
+
+#profile-details {
+    background         : rgb(32, 32, 32);
+    color              : aliceblue;
+    width              : 300px;
+    height             : 300px;
+    padding            : 50px;
+    font-size          : 18px;
+    font-family        : 'Ysabeau Office', sans-serif;
+    text-align         : center;
+    display            : none;
+    position           : absolute;
+    z-index            : 1;
+}
+
+#profile:hover #profile-details {
+    display            : block;   
+    animation          : slideRightProfile 1s;
+    transform-origin   : 0%;
+}
+
+#profile-picture {
+    width              : 190px;
+    height             : 190px;
+    margin-top         : 40px;
+    border-radius      : 100px;
+}
+
+#profile-name {
+    margin-top         : 15px;
+    font-size          : 38px;
+    font-family        : 'Belanosima', sans-serif;
+}
+
+#profile-qualifications {
+    margin-top         : 5px;
+    font-size          : 18px;
+    font-family        : 'EB Garamond', serif;
+    font-weight        : 1000;
+    line-height        : 35px;
+}
+
+#ca-logo {
+    width              : 30px;
+    height             : 20px;
+    transform          : translateY(7px);
+    border             : 2px solid darkblue;
+    border-radius      : 5px;
+}
+
+#values-holder {
+    background         : rgb(32, 32, 32);
+    padding            : 50px 0 50px 0;
+    display            : flex;
+    justify-content    : center;
+}
+
+#values-container {
+    width              : 90%;
+    background         : aliceblue;
+}
+
+#values-header {
+    background         : rgb(32, 32, 32);
+    height             : 70px;
+    display            : flex;
+    justify-content    : space-between;
+}
+
+.values-title {
+    background         : #ff7442;
+    width              : 32.5%;
+    height             : 73%;
+    padding-top        : 19px;
+    font-size          : 25px;
+    font-family        : 'Belanosima', sans-serif;
+    text-align         : center;
+}
+
+.values-title:hover {
+    transform          : scaleX(1.02);
+    cursor             : pointer;
+}
+
+.values-content {
+    padding            : 20px;
+    font-size          : 20px;
+    font-family        : 'Ysabeau Office', sans-serif;
+    text-align         : justify;
+    display            : none;
+}
+
+#values-outer-title {
+    color              : aliceblue;
+    padding            : 80px 0 10px 0;
+    font-size          : 40px;
+    font-family        : 'Lato', sans-serif;
+    text-align         : center;
+}
+
+#services-holder {
+    background         : aliceblue;
+    padding            : 50px 15vw 50px 15vw;
+}
+
+#services-title {
+    font-size          : 40px;
+    font-family        : 'Lato', sans-serif;
+}
+
+#services-content {
+    padding            : 0 5vw 0 5vw;
+    font-size          : 25px;
+    display            : flex;
+    justify-content    : space-around;
+}
+
+#services-content > ul {
+    list-style         : none;
+    width              : 20vw;
+}
+
+#services-content li {
+    margin-top         : 20px;
+    font-family        : 'EB Garamond', serif;
+}
+
+#services-details {
+    width              : 25vw;
+    margin             : 20px 0px 0px 0px;
+    font-size          : 18px;
+    font-family        : 'Ysabeau Office', sans-serif;
+    text-align         : justify;
+    display            : none;
+}
+
+#services-header:hover #services-details {
+    display            : block;
+    animation-name     : slideDown;
+    animation-duration : 1s;
+    transform-origin   : top;
+}
+
+#tick {
+    background         : #ff7442;
+    margin-right       : 10px;
+    padding            : 2px 3px 2px 3px;
+    border-radius      : 160px;
+    font-size          : 18px;
+}
+
+#services-header:hover {
+    cursor             : pointer;
+}
+
+#services-header:hover #tick {
+    transform          : rotate(360deg);
+    transition         : 0.5s;
+}
+
+#review-holder {    
+    padding-bottom     : 100px;
+    cursor             : default;
+}
+
+#review {
+    height             : auto;
+    width              : 100%;
+    margin-top         : 40px;
+    display            : flex;
+    justify-content    : space-evenly;
+    text-align         : center;
+}
+
+#review-outer-title {
+    background         : rgb(32, 32, 32);
+    color              : aliceblue;
+    margin-top         : 40px;
+    font-size          : 40px;
+    font-family        : 'Lato', sans-serif;
+    text-align         : center;
+}
+
+.slide {
+    background         : #ff7442;
+    position           : relative;
+    width              : 80%;
+    height             : auto;
+    padding            : 80px 0 80px 0;
+    text-align         : center;
+    animation-name     : fade;
+    animation-duration : 1s;
+}
+
+#prev, #next {
+    background         :rgb(255, 255, 255, 0.5);
+    padding-top        : 10px;
+    width              : 50px;
+    height             : 35px;
+    border-radius      : 100px;
+    font-size          : 25px;
+    text-align         : center;
+    position           : relative;
+    z-index            : 1;
+}
+
+#prev {
+    display            : none;
+}
+
+#next:hover, #prev:hover {
+    background         : rgb(255, 255, 255, 1);
+    cursor             : pointer;
+}
+
+#review-image {
+    width              : 130px;
+    height             : 130px;
+    border-radius      : 200px;
+}
+
+#review-name {
+    margin             : 20px 0 20px 0;
+    font-size          : 30px;
+    font-family        : 'EB Garamond', serif;
+}
+
+#review-text {
+    padding            : 0 100px 0 100px; 
+    font-size          : 18px;
+    font-family        : 'Ysabeau Office', sans-serif;
+}
+
+#support-holder {
+    background         : aliceblue;
+    padding            : 50px 0 50px 0;
+    display            : flex;
+    justify-content    : center;
+}
+
+#support {
+    background         : aliceblue;
+    height             : 305px;
+    width              : 50%;
+    text-align         : center;
+    display            : flex;
+    justify-content    : center;
+    flex-direction     : column;
+}
+
+#support-title {
+    margin-bottom      : 20px;
+    font-size          : 35px;
+    font-family        : 'Lato', sans-serif;
+}
+
+#support-number {
+    font-size          : 29px;
+    font-family        : 'EB Garamond', serif;
+}
+
+#contact-us-holder {
+    color              : aliceblue;
+    height             : 300px;
+    padding            : 50px 0 50px 0;
+    display            : flex;
+    justify-content    : space-evenly;
+}
+
+#contact-text-container {
+    height             : 100%;
+    width              : 40%;
+    display            : flex;
+    justify-content    : center;
+    flex-direction     : column;
+}
+
+#contact-map-holder {
+    width              : 40%;
+    height             : 100%;
+}
+
+#contact-map-title {
+    margin-bottom      : 20px;
+    font-size          : 25px;
+    font-family        : 'EB Garamond', serif;
+}
+
+#contact-title {
+    font-size          : 40px;
+    font-family        : 'Lato', sans-serif;
+}
+
+#contact-content {
+    font-size          : 20px;
+    font-family        : 'Ysabeau Office', sans-serif;
+}
+
+
+@media screen and (max-width : 815px) {
+    #nav-bar  {
+        height         : 462px;
+        transform      : translateY(-462px);
+    }
+
+    #nav-bar > ul{
+        flex-direction : column;
+    }
+
+    #nav-bar li {
+        width          : 100%;
+        text-align     : center;
+    }
+
+    #about-holder {
+        padding-left   : 5vw;
+        flex-direction : column;
+    }
+
+    #about-left, #about-right {
+        width          : 95%;
+    }
+
+    .values-title {
+        font-size      : 20px;
+    }
+}

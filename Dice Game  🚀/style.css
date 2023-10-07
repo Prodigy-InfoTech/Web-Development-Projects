@@ -215,6 +215,7 @@ header {
   height: auto;
   margin-bottom: 20px;
   vertical-align: middle;
+  border-radius: 15px;
 }
 .modal-close {
   position: absolute;
@@ -228,5 +229,13 @@ header {
   z-index: 1001;
 }
 .modal-close:hover {
-  color: #ff0000; /* Change color on hover if desired */
+  color: #ff0000; 
+}
+
+.btn--rules {
+  position: fixed;
+  
+  left: calc(100% - 150px); 
+  z-index: 1002; 
+  
 }

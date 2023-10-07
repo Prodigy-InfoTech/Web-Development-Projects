@@ -1,4 +1,4 @@
-'use strict';
+
 'use strict';
 
 // Selecting elements
@@ -96,6 +96,8 @@ btnHold.addEventListener('click', function () {
   }
 });
 
+
+// for displaying rules of the game
 btnNew.addEventListener('click', init);
 
 const modal = document.querySelector('.modal');
@@ -113,4 +115,32 @@ rulesButton.addEventListener('click', function() {
 modalCloseButton.addEventListener('click', function() {
   modal.style.display = 'none';
   blurBackground.classList.remove('blur-background');
+});
+
+
+
+//  music mute and  unmute button
+const bgMusic = new Audio('binks_sake.mp3');
+bgMusic.loop = true;
+
+const muteButton = document.querySelector('.btn--mute');
+let isMuted = false;
+
+muteButton.addEventListener('click', function() {
+  if (isMuted) {
+    bgMusic.volume = 1; // Unmute the audio
+    isMuted = false;
+    muteButton.innerHTML = '🔊 Unmute';
+  } else {
+    bgMusic.volume = 0; // Mute the audio
+    isMuted = true;
+    muteButton.innerHTML = '🔇 Mute';
+  }
+});
+
+// Play the audio when the page loads
+document.addEventListener('DOMContentLoaded', function() {
+  bgMusic.play().catch(function(error) {
+    console.error('Error playing audio: ', error);
+  });
 });

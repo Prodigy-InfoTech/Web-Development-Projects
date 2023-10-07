@@ -41,7 +41,7 @@ function App() {
   }, 60000);
 
   useEffect(() => {
-    const api_key = "7f6746dfc0fdc1f371dc2dfddb5152e8";
+    const api_key = "your_api_key"; //paste here your api key go to https://openweathermap.org/api to learn more.
     setDate(Date().slice(0, 15));
 
     setTimeout(() => {

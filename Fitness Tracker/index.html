@@ -5,8 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Fitness Tracker</title>
+
+    <!-- CSS File Link--! -->
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+    <header>
+        <h1>Fitness Tracker</h1>
+    </header>
+    <div class="container">
+        <div id="workout-form">
+            <h2>Log a Workout</h2>
+            <form id="workout-log-form">
+                <label for="exercise">Exercise:</label>
+                <input type="text" id="exercise" required>
+                <label for="duration">Duration (minutes):</label>
+                <input type="number" id="duration" required>
+                <button type="submit">Log Workout</button>
+            </form>
+        </div>
+        <div id="goals-form">
+            <h2>Set Fitness Goals</h2>
+            <form id="fitness-goals-form">
+                <label for="goal">Goal:</label>
+                <input type="text" id="goal" required>
+                <label for="target">Target (minutes per day):</label>
+                <input type="number" id="target" required>
+                <button type="submit">Set Goal</button>
+            </form>
+        </div>
+    </div>
+    <div id="workout-list">
+        <h2>Workout History</h2>
+        <ul id="workouts"></ul>
+    </div>
+    <div id="goals-list">
+        <h2>Fitness Goals</h2>
+        <ul id="fitness-goals"></ul>
+    </div>
+    <script src="script.js"></script>
     
 </body>
 </html>

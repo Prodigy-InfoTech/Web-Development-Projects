@@ -1,0 +1,76 @@
+nav {
+    background-color: #27ae60;
+    margin: auto;
+    color: #fff;
+    text-align: left;
+}
+
+nav h1 {
+    margin: 10;
+    padding: 10;
+    font-size: 64px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.calculator {
+    width: 500px;
+    height: 600px;
+    margin: 50px auto;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.calculator input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    font-size: 60px;
+    border-color: black;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.button {
+    width: 100%;
+    padding: 15px;
+    font-size: 55px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.red-button {
+    background-color: #e74c3c; /* Same color for DEL and C */
+    color: #fff;
+}
+
+.function-button {
+    background-color: orange; /* Different color for operation buttons */
+    color: #fff;
+}
+
+.number-button {
+    background-color: #3498db; /* Different color for number buttons */
+    color: #fff;
+}
+
+.equal-button {
+    background-color: #27ae60;
+    color: #fff;
+}
+
+.button:hover {
+    opacity: 0.8;
+}

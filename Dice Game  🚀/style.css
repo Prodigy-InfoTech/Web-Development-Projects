@@ -16,7 +16,7 @@ body {
   font-weight: 400;
   height: 100vh;
   color: #333;
-  background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+  background-image: linear-gradient(to top left, #ffffff 0%, #0270ff 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -59,7 +59,7 @@ main {
 .score {
   font-size: 8rem;
   font-weight: 300;
-  color: #c7365f;
+  color: #ffffff;
   margin-bottom: auto;
 }
 
@@ -163,5 +163,70 @@ main {
 
 .player--winner .name {
   font-weight: 700;
-  color: #c7365f;
+  color: #b50033;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-image: linear-gradient(to top left, #ffffff 0%, #0270ff 100%);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  margin-bottom: transparent;
+}
+
+.game-title {
+  font-size: 24px;
+  font-weight: bold;
+
+}
+
+/* Modal Styles */
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 1000;
+}
+
+.modal-content {
+  position: relative;
+  text-align: center;
+  margin-top: 10vh;
+}
+
+.blur-background {
+  filter: blur(8px);
+}
+.modal-image {
+  max-width: 80vw;
+  max-height: 70vh;
+  width: auto;
+  height: auto;
+  margin-bottom: 20px;
+  vertical-align: middle;
+}
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+  z-index: 1001;
+}
+.modal-close:hover {
+  color: #ff0000; /* Change color on hover if desired */
 }

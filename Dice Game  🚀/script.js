@@ -97,3 +97,20 @@ btnHold.addEventListener('click', function () {
 });
 
 btnNew.addEventListener('click', init);
+
+const modal = document.querySelector('.modal');
+const rulesButton = document.querySelector('.btn--rules');
+const modalCloseButton = document.querySelector('.modal-close');
+const modalImage = document.querySelector('.modal-image');
+const blurBackground = document.querySelector('.blur-background');
+
+rulesButton.addEventListener('click', function() {
+  modal.style.display = 'block';
+  modalImage.src = 'flowchart.png'; // Set the image source when the button is clicked
+  blurBackground.classList.add('blur-background');
+});
+
+modalCloseButton.addEventListener('click', function() {
+  modal.style.display = 'none';
+  blurBackground.classList.remove('blur-background');
+});

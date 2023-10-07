@@ -5,10 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
-    <title>Pig Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <title>Dice Game</title>
   </head>
   <body>
+    <header>
+      <button class="btn btn--rules">Rules</button>
+        <h1 class="game-title">Dice Game 🚀🚀🚀</h1>
+        
+        <div class="modal">
+          <div class="modal-content">
+            <img src="flowchart.png" alt="Flowchart" class="modal-image">
+            <button class="modal-close">
+              <i class="fas fa-times"></i> <!-- Font Awesome close icon -->
+            </button>
+          </div>
+        </div>
+      </header>
+    
+
     <main>
+  
       <section class="player player--0 player--active">
         <h2 class="name" id="name--0">Player 1</h2>
         <p class="score" id="score--0">43</p>
@@ -34,3 +52,4 @@
     <script src="script.js"></script>
   </body>
 </html>
+

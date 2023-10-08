@@ -60,3 +60,37 @@ li {
     margin-bottom: 10px;
 }
 
+/* Footer styles */
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+/* .social-icon .fab {
+
+    
+} */
+
+#fitness-icon {
+    margin-right: 10px;
+    font-size: 60px; 
+    color: #007bff; 
+}

@@ -8,10 +8,12 @@
 
     <!-- CSS File Link--! -->
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+
 </head>
 <body>
     <header>
-        <h1>Fitness Tracker</h1>
+        <h1><i class="fas fa-running" id="fitness-icon"></i></span>Fitness Tracker</h1>
     </header>
     <div class="container">
         <div id="workout-form">
@@ -44,12 +46,18 @@
         <ul id="fitness-goals"></ul>
     </div>
     
-    <div id="progress-chart">
-        <h2>Progress Tracking</h2>
-        <canvas id="myChart"></canvas>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="script.js"></script>
     
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 Your Fitness App</p>
+            <div class="social-icons">
+                <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

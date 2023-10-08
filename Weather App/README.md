@@ -15,8 +15,11 @@ This is a Basic weather app using React js. This is a very beginner ferindly pro
 
 1. [OpenWeatherMap](https://openweathermap.org/api) api is used in the project. Sign in to the webside and get your api key.
 1. Then go to your vs code workspace 
-1. Open .env file and paste your api key
-1. Run `npm start` to start you project on localhost.
+1. Create an Envirenmental Variable file .env file and paste your api key
+- ![image](https://github.com/NilanjanPramanik/Web-Development-Projects/assets/121485018/80f0a6fa-ed14-44ba-ae51-f5e00348c549)
+  ![image](https://github.com/NilanjanPramanik/Web-Development-Projects/assets/121485018/45aa8e10-b1d3-4c9c-b991-83531814be17)
+
+9. Run `npm start` to start you project on localhost.
    
 ## Technology Used
 React js, OpenWeatherMap api 

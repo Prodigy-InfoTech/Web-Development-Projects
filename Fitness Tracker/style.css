@@ -1,74 +1,94 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+/* Reset default styles */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
 }
 
 .container {
-    display: flex;
-    justify-content: space-around;
-    margin: 20px;
-}
-
-#workout-form, #goals-form {
-    background-color: #fff;
+    max-width: 800px;
+    margin: 0 auto;
     padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-}
-
-#workout-list, #goals-list {
     background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
-form label, ul {
+/* Header styles */
+header {
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Form styles */
+form {
+    margin-top: 20px;
+}
+
+form label {
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
-button {
-    background-color: #333;
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
     color: #fff;
     border: none;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 4px;
+    font-size: 16px;
     cursor: pointer;
+    margin-bottom: 30px;
+    
 }
 
-button:hover {
-    background-color: #555;
+button[type="submit"]:hover {
+    background-color: #0056b3;
 }
 
+/* Lists styles */
 ul {
     list-style: none;
-    padding: 0;
-}
-
-li {
-    margin-bottom: 10px;
 }
 
 /* Footer styles */
-.footer {
-    background-color: #222;
+.fitness-footer {
+    background-color: #007bff;
     color: #fff;
-    padding: 20px 0;
     text-align: center;
+    padding: 20px 0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
-.footer p {
+.fitness-footer p {
     margin: 0;
     font-size: 18px;
 }
@@ -82,15 +102,73 @@ li {
     margin: 0 10px;
     font-size: 24px;
     color: #fff;
-    text-decoration: none;
 }
-/* .social-icon .fab {
 
+.fa-running{
+    margin-top: 20px;
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 60px;
+    color: #fff;
     
-} */
+}
+.fa-running:hover{
+    color: lightsalmon;
+}
 
-#fitness-icon {
-    margin-right: 10px;
-    font-size: 60px; 
-    color: #007bff; 
+/* Style for Workout History and Fitness Goals */
+#workout-list, #goals-list {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#workout-list h2, #goals-list h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#workout-list ul, #goals-list ul {
+    padding-left: 20px;
+}
+
+#workout-list li, #goals-list li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #f7f7f7;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Workout History specific styles */
+#workout-list li {
+    border-left: 4px solid #007bff;
+}
+
+/* Fitness Goals specific styles */
+#goals-list li {
+    border-left: 4px solid #3fbf26; /* Use a different color for goals */
+}
+
+
+/* Style for the "Edit" button in JS */
+button.edit-workout-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.edit-workout-button:hover {
+    background-color: #0056b3;
 }

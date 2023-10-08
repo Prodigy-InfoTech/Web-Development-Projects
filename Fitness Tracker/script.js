@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const workoutEntry = document.createElement('li');
             workoutEntry.innerHTML = `<span>${exercise} - ${duration} minutes</span>`;
             const editButton = document.createElement('button');
+            editButton.classList.add('edit-workout-button');
             editButton.textContent = 'Edit';
             editButton.addEventListener('click', () => editWorkout(workoutEntry));
             workoutEntry.appendChild(editButton);
@@ -45,6 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const goalEntry = document.createElement('li');
             goalEntry.innerHTML = `<span>${goal} - ${target} minutes per day</span>`;
             const editButton = document.createElement('button');
+            editButton.classList.add('edit-workout-button');
             editButton.textContent = 'Edit';
             editButton.addEventListener('click', () => editGoal(goalEntry));
             goalEntry.appendChild(editButton);

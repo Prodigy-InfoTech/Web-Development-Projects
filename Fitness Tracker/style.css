@@ -109,11 +109,11 @@ ul {
     display: inline-block;
     margin: 0 10px;
     font-size: 60px;
-    color: #fff;
-    
+    margin-right: 20px;
+    color: red;
 }
 .fa-running:hover{
-    color: lightsalmon;
+    color: #fff;
 }
 
 /* Style for Workout History and Fitness Goals */

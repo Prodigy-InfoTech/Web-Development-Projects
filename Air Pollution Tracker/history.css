@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.container{
+    background: url("img.webp");
+    height: auto;
+    margin-top: 0px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    
+}
+
+body{
+     background: url("img.webp"); 
+     
+}
+
+.search{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#st{
+    padding: 5px 5px;
+    margin: 15px 15px;
+}
+#ed{
+    padding: 5px 5px;
+    margin: 15px 15px;
+}
+.end{
+    font-size: 30px;
+    background-color: rgb(235, 53, 53);
+    color:aliceblue;
+    padding:5px 5px;
+    margin: 15px 15px;
+    border-radius: 10px;
+    
+}
+.startDate{
+    padding: 5px 5px;
+    background-color: aquamarine;
+    font-size: 20px;
+}
+.endDate{
+    padding: 5px 5px;
+    background-color: aquamarine;
+    font-size: 20px;
+}
+
+#graph
+{
+    margin-top: 10px;
+}

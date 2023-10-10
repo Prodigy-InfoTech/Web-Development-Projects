@@ -66,7 +66,6 @@ button[type="submit"] {
     font-size: 16px;
     cursor: pointer;
     margin-bottom: 30px;
-    
 }
 
 button[type="submit"]:hover {
@@ -104,7 +103,7 @@ ul {
     color: #fff;
 }
 
-.fa-running{
+.fa-running {
     margin-top: 20px;
     display: inline-block;
     margin: 0 10px;
@@ -112,12 +111,14 @@ ul {
     margin-right: 20px;
     color: #fff;
 }
-.fa-running:hover{
+
+.fa-running:hover {
     color: red;
 }
 
 /* Style for Workout History and Fitness Goals */
-#workout-list, #goals-list {
+#workout-list,
+#goals-list {
     margin-top: 20px;
     padding: 10px;
     border: 1px solid #ccc;
@@ -126,16 +127,19 @@ ul {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
-#workout-list h2, #goals-list h2 {
+#workout-list h2,
+#goals-list h2 {
     font-size: 24px;
     margin-bottom: 10px;
 }
 
-#workout-list ul, #goals-list ul {
+#workout-list ul,
+#goals-list ul {
     padding-left: 20px;
 }
 
-#workout-list li, #goals-list li {
+#workout-list li,
+#goals-list li {
     font-size: 16px;
     margin-bottom: 10px;
     padding: 5px;
@@ -144,6 +148,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 /* Workout History specific styles */
@@ -156,9 +161,9 @@ ul {
     border-left: 4px solid #3fbf26; /* Use a different color for goals */
 }
 
-
-/* Style for the "Edit" button in JS */
-button.edit-workout-button {
+/* Style for the "Edit" and "Delete" buttons */
+#workout-list button.edit-workout-button,
+#goals-list button.edit-workout-button {
     background-color: #007bff;
     color: #fff;
     border: none;
@@ -167,8 +172,27 @@ button.edit-workout-button {
     font-size: 14px;
     cursor: pointer;
     transition: background-color 0.3s;
+    position: absolute;
+    right: 100px; /* Adjust the right margin to prevent overlap */
 }
 
-button.edit-workout-button:hover {
-    background-color: #0056b3;
+#workout-list button.delete-workout-button,
+#goals-list button.delete-goal-button {
+    background-color: #ff4545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: absolute;
+    right: 10px; /* Adjust the right position */
+    margin-right: 20px;
+}
+
+/* Additional styles for the "Delete" button */
+button.delete-workout-button:hover,
+button.delete-goal-button:hover {
+    background-color: #d62323;
 }

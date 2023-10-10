@@ -19,11 +19,20 @@ document.addEventListener('DOMContentLoaded', function() {
             // Create a new workout entry, add an Edit button, and add it to the list
             const workoutEntry = document.createElement('li');
             workoutEntry.innerHTML = `<span>${exercise} - ${duration} minutes</span>`;
+
             const editButton = document.createElement('button');
             editButton.classList.add('edit-workout-button');
             editButton.textContent = 'Edit';
             editButton.addEventListener('click', () => editWorkout(workoutEntry));
+
+            const deleteButton = document.createElement('button');
+            deleteButton.classList.add('delete-workout-button');
+            deleteButton.textContent = 'Delete';
+            deleteButton.addEventListener('click', () => deleteWorkout(workoutEntry));
+
             workoutEntry.appendChild(editButton);
+            workoutEntry.appendChild(deleteButton);
+
             workoutsList.appendChild(workoutEntry);
         }
 
@@ -45,11 +54,20 @@ document.addEventListener('DOMContentLoaded', function() {
             // Create a new goal entry, add an Edit button, and add it to the list
             const goalEntry = document.createElement('li');
             goalEntry.innerHTML = `<span>${goal} - ${target} minutes per day</span>`;
+
             const editButton = document.createElement('button');
             editButton.classList.add('edit-workout-button');
             editButton.textContent = 'Edit';
             editButton.addEventListener('click', () => editGoal(goalEntry));
+
+            const deleteButton = document.createElement('button');
+            deleteButton.classList.add('delete-goal-button');
+            deleteButton.textContent = 'Delete';
+            deleteButton.addEventListener('click', () => deleteGoal(goalEntry));
+
             goalEntry.appendChild(editButton);
+            goalEntry.appendChild(deleteButton);
+            
             goalsList.appendChild(goalEntry);
         }
 
@@ -71,4 +89,19 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('goal').value = goalData[0];
         document.getElementById('target').value = parseInt(goalData[1]);
     }
+
+    // Function to delete a workout entry
+    function deleteWorkout(workoutEntry) {
+        workoutEntry.remove();
+        saveWorkoutData();
+    }
+    
+    // Function to delete a fitness goal entry
+    function deleteGoal(goalEntry) {
+        goalEntry.remove();
+        saveGoalData();
+    }
+
+    
 });
+

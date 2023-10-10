@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# Cryptocurrency Tracker App
+This is a Basic weather app using React js. This is a very beginner ferindly project to master React js. In this project you have learn about how to fectch data from api in real time and use the data in frontend.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Demo
 
-## Available Scripts
+### Home Page
+![Screenshot 2023-10-10 180130](https://github.com/NilanjanPramanik/Web-Development-Projects/assets/121485018/f2e5e184-da2d-4ff8-8fef-87abedf97bcb)
 
-In the project directory, you can run:
+### Search Result Page
+![Screenshot 2023-10-10 180147](https://github.com/NilanjanPramanik/Web-Development-Projects/assets/121485018/5ddad814-3e84-41bc-bb1b-3156eca9069b)
 
-### `npm start`
+### Coin Information Page
+![Screenshot 2023-10-10 184910](https://github.com/NilanjanPramanik/Web-Development-Projects/assets/121485018/4b5c84a9-ef09-40fb-b2a9-b2c8ca4ae167)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Project setting up 
+1. You have to clone the repositery in your local machine first.
+1. Then open your Terminal in the folder.
+1. Then use the command `cd "Cryptocurrency Tracker"` `cd portfolio-tracker` that will change your directry and use `code .` for opening your project in [VS Code](https://code.visualstudio.com/).
+1. Now the project folder is open in vs code. Now you open vs code terminal. Use the command `npm install` to install all the dependencies. 
+1. After the complete installation you will see a file generated named *node moduls*.
+2. Then use `npm install zustand` to install zustand. [Zustand](https://zustand-demo.pmnd.rs/) is a state management library for react.
+1. Then go to your vs code workspace 
+9. Run `npm start` to start you project on localhost.
+   
+## Technology Used
+React js, Zustand
+## API
+Coingecko

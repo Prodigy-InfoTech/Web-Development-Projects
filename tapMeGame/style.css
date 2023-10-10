@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "JetBrains Mono";
+  }
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    text-align: center;
+    color: black;
+  }
+  #playground {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 5;
+  }
+  .bars {
+    margin-top: 2em;
+    padding: 4px 5px;
+    border: 2px solid blueviolet;
+    z-index: 5;
+    border-radius: 8px;
+  }
+  
+  #playarea {
+    overflow: hidden;
+    height: calc(90vh - 5em);
+    background-color: rgb(255, 248, 248);
+    max-width: 330px;
+    min-width: 320px;
+    margin-top: 1em;
+    z-index: 5;
+    border: 1.5px solid goldenrod;
+    border-radius: 6px;
+  }
+  #playareabubble {
+    margin-top: 5px;
+    z-index: 5;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    left: 134px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(229, 195, 102);
+    cursor: pointer;
+  }
+  
+  .hide {
+    opacity: 0;
+  }
+  
+  #startpage {
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    background-color: black;
+    color: aqua;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #start {
+    cursor: pointer;
+  }
+  #start2 {
+    color: rgb(95, 202, 115);
+    cursor: pointer;
+  }
+  
+  #lastpage {
+    color: rgb(232, 5, 5);
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    background-color: black;
+    transform: translate(-50%, -50%);
+  }
+  

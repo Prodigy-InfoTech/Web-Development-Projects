@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> TAP ME - GAME</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="startpage">
+        <h1>
+            <span id="start" onclick="startgame()"> Tap to <span id="start2">START</span></span>
+        </h1>
+        <br>
+        <h2>
+            HOW TO PLAY 🎮💻
+        </h2>
+        <span style="color: red;">================================</span>
+        <br>
+        <p id="para">
+            <span style="color: red;">>></span> When you START the game, a bubble having a random number will appear on
+            the
+            screen. <br>
+            <span style="color: red;">>></span> You have to TAP on that bubble to get the number reduced to 0. <br>
+            <span style="color: red;">>></span> When you reached zero, a new number will appear on the bubble. <br>
+            <span style="color: red;">>></span> You have to repeat the same untill you have LIVES(Starts with 10). <br>
+            <span style="color: red;">>></span> Your SCORE will increase by 10 whenever you reduce a bubble to ZERO.
+            <br>
+            <span style="color: red;">>></span> Lives will decrease when the bubble reaches bottom.
+        </p>
+    </div>
+    <div id="playground">
+        <div id="topbar">
+            <button class="bars">SCORE : <span id="box1">00</span></button>
+            <button class="bars">LIVES : <span id="box3">10</span></button>
+        </div>
+
+        <div id="playarea">
+            <div id="playareabubble" onclick="insideBubble()">
+            </div>
+
+        </div>
+    </div>
+    <div id="lastpage">
+        <h1>GAME OVER!</h1>
+        <br>
+        <h2>
+            YOUR SCORE IS <span id="finalScore">00</span>. <br>
+            Refresh to RESTART
+        </h2>
+        <br>
+        <h3 style="max-width: 310px; color: greenyellow;">I have another one for you 👉🏻 <a
+                style="color: antiquewhite;" href="https://bubblegame.mangal1.repl.co/">Play BUBBLE GAME</a></h3>
+    </div>
+    <br>
+    <span style="color: azure;">Made with <span style="color: red;">❤ </span>by MANGAL</span>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -120,6 +120,7 @@ ul {
 #workout-list,
 #goals-list {
     margin-top: 20px;
+    margin-bottom: 20px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -163,7 +164,7 @@ ul {
 
 /* Style for the "Edit" and "Delete" buttons */
 #workout-list button.edit-workout-button,
-#goals-list button.edit-workout-button {
+#goals-list button.edit-goal-button {
     background-color: #007bff;
     color: #fff;
     border: none;
@@ -191,8 +192,14 @@ ul {
     margin-right: 20px;
 }
 
-/* Additional styles for the "Delete" button */
-button.delete-workout-button:hover,
-button.delete-goal-button:hover {
+/* Hover styles for the "Delete" button */
+#workout-list button.delete-workout-button:hover,
+#goals-list button.delete-goal-button:hover {
     background-color: #d62323;
+}
+
+/* Hover styles for the "Edit" button */
+#workout-list button.edit-workout-button:hover,
+#goals-list button.edit-goal-button:hover {
+    background-color: #0056b3;
 }

@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function() {
             goalEntry.innerHTML = `<span>${goal} - ${target} minutes per day</span>`;
 
             const editButton = document.createElement('button');
-            editButton.classList.add('edit-workout-button');
+            editButton.classList.add('edit-goal-button');
             editButton.textContent = 'Edit';
             editButton.addEventListener('click', () => editGoal(goalEntry));
 

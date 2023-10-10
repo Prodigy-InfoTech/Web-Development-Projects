@@ -1,5 +1,5 @@
 # Cryptocurrency Tracker App
-This is a Basic weather app using React js. This is a very beginner ferindly project to master React js. In this project you have learn about how to fectch data from api in real time and use the data in frontend.
+This is a simple app for tracking all the price and details of a crypto currencis. It is made with React js and Zustand state management library. 
 
 ## Demo
 

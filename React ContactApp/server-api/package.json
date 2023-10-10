@@ -1,0 +1,14 @@
+{
+  "name": "server-api",
+  "version": "1.0.0",
+  "description": "db for contact app",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server -p 3006 --watch db.json"
+  },
+  "author": "isha",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}

@@ -1,0 +1,42 @@
+html, body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-image: url('back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    margin-top: 20%;
+    position: relative;
+    z-index: 1;
+}
+
+h1 {
+    color: #333;
+}
+
+input[type="number"] {
+    width: 175px;
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    margin: 10px;
+    font-size: 18px;
+}

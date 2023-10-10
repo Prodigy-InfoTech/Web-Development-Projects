@@ -57,6 +57,14 @@ input[type="number"] {
     border-radius: 4px;
 }
 
+/* Style for input placeholders */
+input::placeholder {
+    color: #999; /* Placeholder text color */
+    font-style: italic; /* Italics for placeholders (optional) */
+    font-size: 14px; /* Adjust font size as needed */
+}
+
+
 button[type="submit"] {
     background-color: #007bff;
     color: #fff;
@@ -103,17 +111,18 @@ ul {
     color: #fff;
 }
 
-.fa-running {
+.running-img{
+    height: 60px;
+    width: fit-content;
+    filter: brightness(0) invert(1);
     margin-top: 20px;
     display: inline-block;
     margin: 0 10px;
     font-size: 60px;
     margin-right: 20px;
-    color: #fff;
 }
-
-.fa-running:hover {
-    color: red;
+.running-img:hover{
+    filter: sepia(300%) hue-rotate(150deg) saturate(450%) !important ;
 }
 
 /* Style for Workout History and Fitness Goals */

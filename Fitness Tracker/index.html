@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Fitness Tracker</title>
 
+    <link rel="icon" type="image/x-icon" href="./assets/running.png">
+
     <!-- CSS File Link--! -->
     <link rel="stylesheet" type="text/css" href="style.css">
     <!-- Font Awesome  -->
@@ -14,16 +16,16 @@
 </head>
 <body>
     <header>
-        <h1><a href="index.html" class="fas fa-running" id="fitness-icon"></a>Fitness Tracker</h1>
+        <h1><a href="index.html"><img class="running-img" src="./assets/running.png" alt="running icon"></a>Fitness Tracker</h1>
     </header>
     <div class="container">
         <div id="workout-form">
             <h2>Log a Workout</h2>
             <form id="workout-log-form">
                 <label for="exercise">Exercise Name:</label>
-                <input type="text" id="exercise" required>
+                <input type="text" id="exercise" required placeholder="Enter exercise name">
                 <label for="duration">Duration (minutes):</label>
-                <input type="number" id="duration" required>
+                <input type="number" id="duration" required placeholder="Enter duration in minutes">
                 <button id="work" type="submit">Log Workout</button>
             </form>
         </div>
@@ -31,13 +33,14 @@
             <h2>Set Fitness Goals</h2>
             <form id="fitness-goals-form">
                 <label for="goal">Goal Exercise Name:</label>
-                <input type="text" id="goal" required>
+                <input type="text" id="goal" required placeholder="Enter goal exercise name">
                 <label for="target">Target (minutes per day):</label>
-                <input type="number" id="target" required>
+                <input type="number" id="target" required placeholder="Enter daily target in minutes">
                 <button type="submit">Set Goal</button>
             </form>
         </div>
     </div>
+    
     <div id="workout-list">
         <h2>Workout History</h2>
         <ul id="workouts"></ul>

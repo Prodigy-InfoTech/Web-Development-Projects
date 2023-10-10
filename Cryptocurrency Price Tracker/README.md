@@ -16,7 +16,7 @@ This is a simple app for tracking all the price and details of a crypto currenci
 ## Project setting up 
 1. You have to clone the repositery in your local machine first.
 1. Then open your Terminal in the folder.
-1. Then use the command `cd "Cryptocurrency Tracker"` `cd portfolio-tracker` that will change your directry and use `code .` for opening your project in [VS Code](https://code.visualstudio.com/).
+1. Then use the command `cd "Cryptocurrency Price Tracker"` that will change your directry and use `code .` for opening your project in [VS Code](https://code.visualstudio.com/).
 1. Now the project folder is open in vs code. Now you open vs code terminal. Use the command `npm install` to install all the dependencies. 
 1. After the complete installation you will see a file generated named *node moduls*.
 2. Then use `npm install zustand` to install zustand. [Zustand](https://zustand-demo.pmnd.rs/) is a state management library for react.

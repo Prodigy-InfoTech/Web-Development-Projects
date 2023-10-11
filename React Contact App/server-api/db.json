@@ -1,0 +1,49 @@
+{
+  "contacts": [
+    {
+      "name": "sam",
+      "email": "isha@gmail.com",
+      "id": "c1f3687e-0124-4b2c-b301-d961b9060d02"
+    },
+    {
+      "name": "abhimanyu",
+      "email": "ab@gmail.com",
+      "id": "f6c0bc09-b728-4c16-966e-5a1e679f3e98"
+    },
+    {
+      "id": "c46711a8-5cce-47b8-9b08-bde687a8c520",
+      "name": "Isha ghyar",
+      "email": "isha@gmail.com"
+    },
+    {
+      "id": "89dee048-9289-4af0-8126-5de4cfc62acc",
+      "name": "abhi",
+      "email": "ab@gmail.com"
+    },
+    {
+      "id": "53bb5826-ea1f-4bfe-a0aa-ead9edd16200",
+      "name": "akshu",
+      "email": "ak@gmail.com"
+    },
+    {
+      "id": "ba38ff4b-a896-491e-a502-c8c7f91508b6",
+      "name": "kuddu ",
+      "email": "kuddu@gmail.com"
+    },
+    {
+      "id": "ae49d9ba-31be-42fa-8a55-66f22a46f847",
+      "name": "srk",
+      "email": "srk@gmail.com"
+    },
+    {
+      "id": "1db8e1c0-05c0-43d0-a739-0389a5acb2b7",
+      "name": "rana",
+      "email": "s@gmail.com"
+    },
+    {
+      "id": "41bd3b0a-793f-46f3-92a0-eb98d7e81caa",
+      "name": "zuu",
+      "email": "z@gmail.com"
+    }
+  ]
+}

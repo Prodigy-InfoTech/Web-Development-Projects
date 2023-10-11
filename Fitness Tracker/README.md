@@ -2,7 +2,6 @@
 
 Welcome to the README for the **Fitness Tracker** project! This document will help you get started and understand the key features of your project.
 
-![Fitness Tracker](./assets/Full_without_data.png)
 ![Fitness Tracker](./assets/Full_with_data.png)
 
 ## Table of Contents
@@ -11,7 +10,6 @@ Welcome to the README for the **Fitness Tracker** project! This document will he
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-  - [Configuration](#configuration)
 - [Usage](#usage)
 
 ## Introduction
@@ -20,32 +18,38 @@ The **Fitness Tracker** is a simple Web App that allow users to log their workou
 
 ## Features
 
-List the key features of your project in this section. You can use bullet points for better readability.
-
-- Feature 1: Describe feature 1 here.
-- Feature 2: Describe feature 2 here.
-- ...
+- User-friendly interface for tracking fitness log and goals.
+- Create multiple workouts & goals to track your fitness.
+- Add, edit, and delete workouts & goals as needed.
+- Mobile-responsive design suitable to use on various devices.
 
 ## Getting Started
 
-This section should guide users on how to get started with your project. Include instructions for installation, configuration, and any prerequisites.
-
 ### Prerequisites
 
-List any prerequisites that users need to have installed or set up before they can use your project.
+A latest Web browser like Chrome, Firefox, Safari, Edge, etc.
 
 ### Installation
 
-Provide installation instructions, code examples, or scripts if necessary.
+1. Clone the repository to your local machine:
 
-### Configuration
+   ```bash
+   git clone <project link>
 
-Explain any configuration options or settings that the user may need to modify.
+2. Open the project folder.
+
+```bash
+cd fitness_tracker
+```
+
+3. Run `index.html` in your preferred web browser.
 
 ## Usage
 
-In this section, provide examples and instructions on how to use your project. You can include code snippets, screenshots, and any other helpful information.
-
-## License
-
-This project is licensed under the [License Name](LICENSE.md) - You can provide a link to the full license text if needed.
+1. Open the `index.html` file.
+2. Enter you Exercise Name and duration.
+3. Click on the "Log Workout" button.
+4. Enter you Goal Exercise and duration.
+5. Click on the "Set Goal" button.
+6. You can edit or delete your exercise history and goals.
+---

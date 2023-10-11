@@ -39,7 +39,7 @@ A latest Web browser like Chrome, Firefox, Safari, Edge, etc.
 2. Open the project folder.
 
 ```bash
-cd fitness_tracker
+cd <project address>
 ```
 
 3. Run `index.html` in your preferred web browser.

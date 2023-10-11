@@ -11,6 +11,7 @@ body {
     background-color: #f0f0f0;
 }
 
+/* 1st Container styles */
 .container {
     max-width: 800px;
     margin: 0 auto;
@@ -19,6 +20,21 @@ body {
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+}
+
+/* Website Top Logo */
+.running-img{
+    height: 60px;
+    width: fit-content;
+    filter: brightness(0) invert(1);
+    margin-top: 20px;
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 60px;
+    margin-right: 20px;
+}
+.running-img:hover{
+    filter: sepia(300%) hue-rotate(150deg) saturate(450%) !important ;
 }
 
 /* Header styles */
@@ -49,6 +65,7 @@ form label {
     margin-bottom: 8px;
 }
 
+/* Input Boxes */
 input[type="text"],
 input[type="number"] {
     width: 100%;
@@ -60,12 +77,12 @@ input[type="number"] {
 
 /* Style for input placeholders */
 input::placeholder {
-    color: #999; /* Placeholder text color */
-    font-style: italic; /* Italics for placeholders (optional) */
-    font-size: 14px; /* Adjust font size as needed */
+    color: #999; 
+    font-style: italic; 
+    font-size: 14px; 
 }
 
-
+/* Record & History Submitting Buttons styles */
 button[type="submit"] {
     background-color: #007bff;
     color: #fff;
@@ -112,20 +129,6 @@ ul {
     color: #fff;
 }
 
-.running-img{
-    height: 60px;
-    width: fit-content;
-    filter: brightness(0) invert(1);
-    margin-top: 20px;
-    display: inline-block;
-    margin: 0 10px;
-    font-size: 60px;
-    margin-right: 20px;
-}
-.running-img:hover{
-    filter: sepia(300%) hue-rotate(150deg) saturate(450%) !important ;
-}
-
 /* Style for Workout History and Fitness Goals */
 #workout-list,
 #goals-list {
@@ -162,14 +165,14 @@ ul {
     position: relative;
 }
 
-/* Workout History specific styles */
+/* Workout History List items style */
 #workout-list li {
-    border-left: 4px solid #007bff;
+    border-left: 4px solid #007bff; /*Border left color*/
 }
 
-/* Fitness Goals specific styles */
+/* Fitness Goals List items style */
 #goals-list li {
-    border-left: 4px solid #3fbf26; /* Use a different color for goals */
+    border-left: 4px solid #3fbf26;  /*Border left color*/
 }
 
 /* Style for the "Edit" and "Delete" buttons */

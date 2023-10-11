@@ -1,8 +1,8 @@
 # contactapp
-It is a React App that has a json-server as backend \
+This is a React App that has a json-server as backend \
 db.json file acts as a database and on adding, updating and deleting data the db.sjon file is updates using axios restful api. \
 \
-This app has a contact list , search contact functionality, delete , add , update contacts functionality and can go to a contact to get contact details.\
+This app has a contact list , search contact functionality, delete , add , update contacts functionality and can go to a contact to get contact details.
 
 # To start app and server
 cd contact-app \

@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin: 50px auto;
+    max-width: 800px;
+}
+
+.controls button {
+    margin: 5px;
+}
+
+.array-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.array-bar {
+    width: 20px;
+    height: 100px;
+    background-color: #3498db;
+    margin: 0 1px;
+    transition: height 0.2s;
+}

@@ -13,11 +13,9 @@
 </head>
 
 <body>
-
     <nav>
         <div class="logo">The Love Calculator</div>
     </nav>
-
     <section class="wrapper">
         <h2 class="heading">Welcome to this great invention of Doctor Love!</h2>
         <p class="about">We all know that a name can tell a lot about a person. Names are not randomly chosen: they all
@@ -35,22 +33,21 @@
             <div class="flex-box">
                 <div class="yourName">
                     <label for="yourName" class="bold">Your Name</label> <br>
-                    <input type="text" placeholder="Full Name" required>
+                    <input type="text" id="yourNameInput" placeholder="Full Name" required>
                 </div>
                 <div class="yourCrush">
-                    <label for="yourCrush" class="bold" >Your Crush</label> <br>
-                    <input type="text" placeholder="Full Name" required>
-                </div> 
+                    <label for="yourCrush" class="bold">Your Crush</label> <br>
+                    <input type="text" id="yourCrushInput" placeholder="Full Name" required>
+                </div>
             </div>
             <button onclick="calculateLove()">Calculate love</button>
-            <div id="lovePercentage">
-
-            </div>
+            <div id="lovePercentage"></div>
+            <div id="loveFeedback"></div>
+            <div id="loveFacts"></div>
         </div>
     </section>
-    
-<script src="script.js"></script>
-   
+
+    <script src="script.js"></script>
 </body>
 
 </html>

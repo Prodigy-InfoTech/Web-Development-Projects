@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useParams  } from 'react-router-dom';
-import avatar from '../assests/avatar.png'
+import avatar from '../assets/avatar.png'
 
 const ContactDetails = () => {
     //console.log(props)

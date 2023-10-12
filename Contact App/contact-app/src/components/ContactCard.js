@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import user from "../assests/user.png";
+import user from "../assets/user.png";
 
 export default function ContactCard(props) {
   const { id, name, email } = props.contact;

@@ -1,0 +1,218 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* 1st Container styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Website Top Logo */
+.running-img{
+    height: 60px;
+    width: fit-content;
+    filter: brightness(0) invert(1);
+    margin-top: 20px;
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 60px;
+    margin-right: 20px;
+}
+.running-img:hover{
+    filter: sepia(300%) hue-rotate(150deg) saturate(450%) !important ;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Form styles */
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Input Boxes */
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style for input placeholders */
+input::placeholder {
+    color: #999; 
+    font-style: italic; 
+    font-size: 14px; 
+}
+
+/* Record & History Submitting Buttons styles */
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Lists styles */
+ul {
+    list-style: none;
+}
+
+/* Footer styles */
+.fitness-footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.fitness-footer p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: #fff;
+}
+
+/* Style for Workout History and Fitness Goals */
+#workout-list,
+#goals-list {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#workout-list h2,
+#goals-list h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#workout-list ul,
+#goals-list ul {
+    padding-left: 20px;
+}
+
+#workout-list li,
+#goals-list li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #f7f7f7;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+/* Workout History List items style */
+#workout-list li {
+    border-left: 4px solid #007bff; /*Border left color*/
+}
+
+/* Fitness Goals List items style */
+#goals-list li {
+    border-left: 4px solid #3fbf26;  /*Border left color*/
+}
+
+/* Style for the "Edit" and "Delete" buttons */
+#workout-list button.edit-workout-button,
+#goals-list button.edit-goal-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: absolute;
+    right: 100px; /* Adjust the right margin to prevent overlap */
+}
+
+#workout-list button.delete-workout-button,
+#goals-list button.delete-goal-button {
+    background-color: #ff4545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: absolute;
+    right: 10px; /* Adjust the right position */
+    margin-right: 20px;
+}
+
+/* Hover styles for the "Delete" button */
+#workout-list button.delete-workout-button:hover,
+#goals-list button.delete-goal-button:hover {
+    background-color: #d62323;
+}
+
+/* Hover styles for the "Edit" button */
+#workout-list button.edit-workout-button:hover,
+#goals-list button.edit-goal-button:hover {
+    background-color: #0056b3;
+}

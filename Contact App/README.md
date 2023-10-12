@@ -12,16 +12,16 @@ npm start (server will start at port 3006)
 \
 \
 \
-![Screenshot (6)](../assets/ss6.png)
+![Screenshot (6)](../contact-app/src/assets/ss6.png)
 \
-![Screenshot (7)](../assets/ss7.png)
+![Screenshot (7)](../contact-app/src/assets/ss7.png)
 \
-![Screenshot (9)](../assets/ss8.png)
+![Screenshot (9)](../contact-app/src/assets/ss8.png)
 \
-![Screenshot (10)](../assets/ss9.png)
-\
-
-![Screenshot (11)](../assets/ss10.png)
+![Screenshot (10)](../contact-app/src/assets/ss9.png)
 \
 
-![Screenshot (12)](../assets/ss11.png)
+![Screenshot (11)](../contact-app/src/assets/ss10.png)
+\
+
+![Screenshot (12)](../contact-app/src/assets/ss11.png)

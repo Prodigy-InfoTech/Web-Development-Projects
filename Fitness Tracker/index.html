@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Fitness Tracker</title>
+
+    <link rel="icon" type="image/x-icon" href="./assets/running.png" />
+
+    <!-- CSS File Link--! -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- Font Awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>
+        <a href="index.html"
+          >
+          <!-- Logo  -->
+          <img
+            class="running-img"
+            src="./assets/running.png"
+            alt="running icon" /></a
+        >Fitness Tracker
+      </h1>
+    </header>
+
+    <!-- Main Body-->
+    <!-- 1st Container -->
+    <div class="container">
+      <div id="workout-form">
+        <h2>Log a Workout</h2>
+        <form id="workout-log-form">
+          <label for="exercise">Exercise Name:</label>
+          <input
+            type="text"
+            id="exercise"
+            required
+            placeholder="Enter exercise name"
+          />
+          <label for="duration">Duration (minutes):</label>
+          <input
+            type="number"
+            id="duration"
+            required
+            placeholder="Enter duration in minutes"
+          />
+          <button id="work" type="submit">Log Workout</button>
+        </form>
+      </div>
+      <div id="goals-form">
+        <h2>Set Fitness Goals</h2>
+        <form id="fitness-goals-form">
+          <label for="goal">Goal Exercise Name:</label>
+          <input
+            type="text"
+            id="goal"
+            required
+            placeholder="Enter goal exercise name"
+          />
+          <label for="target">Target (minutes per day):</label>
+          <input
+            type="number"
+            id="target"
+            required
+            placeholder="Enter daily target in minutes"
+          />
+          <button type="submit">Set Goal</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Workout Container to show records -->
+    <div id="workout-list">
+      <h2>Workout History</h2>
+      <ul id="workouts"></ul>
+    </div>
+    <!-- Goals Container to show records -->
+    <div id="goals-list">
+      <h2>Fitness Goals</h2>
+      <ul id="fitness-goals"></ul>
+    </div>
+
+    <!-- Footer -->
+    <footer class="fitness-footer">
+      <p>&copy; 2023 Fitness Tracker</p>
+      <div class="social-icons">
+        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+      </div>
+    </footer>
+
+    <!-- JavaScript File link  -->
+    <script src="script.js"></script>
+  </body>
+</html>

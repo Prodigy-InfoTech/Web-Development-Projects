@@ -1,6 +1,6 @@
-# Image Ditor
+# Image Editor
 
-**Image Ditor** is a simple image editing web application built using HTML, CSS, and JavaScript. This application allows users to upload an image, make various edits to the image, and then download the edited image. Users can also reset the edits at any point during the editing process.
+**Image Editor** is a simple image editing web application built using HTML, CSS, and JavaScript. This application allows users to upload an image, make various edits to the image, and then download the edited image. Users can also reset the edits at any point during the editing process.
 
 ## Table of Contents
 
@@ -13,7 +13,7 @@
 
 You can try out the application by visiting the following URL:
 
-[Image Ditor Demo](www.image-ditor.vercel.app)
+[Image Editor Demo](www.image-ditor.vercel.app)
 
 ## Features
 
@@ -24,7 +24,7 @@ You can try out the application by visiting the following URL:
 
 ## Getting Started
 
-To use the Image Ditor App, follow these steps:
+To use the Image Editor App, follow these steps:
 
 ### Installation
 
@@ -37,7 +37,7 @@ git clone https://github.com/Prodigy-InfoTech/Web-Development-Projects.git
 2. Open the project folder.
 
 ```bash
-cd ImageDitor
+cd ImageEditor
 ```
 
 3. Run `index.html` in your preferred web browser.

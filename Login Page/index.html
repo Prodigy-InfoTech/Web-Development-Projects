@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Prodigy Login</title>
+    <!-- ICON -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.png">
+
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="reset.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="bg-login"></div>
+        <div class="login-wrapper mx-auto">
+            <div class="login glassmorphism">
+                <!-- :::TEXT -->
+                <div class="login-text text-center">
+                    <h1 class="login-text-head select-none font-bold">PRODIGY</h1>
+                    <h2 class="login-text-sub font-semibold">Discover your learning journey</h2>
+                </div>
+
+                <!-- :::FORM INPUT -->
+                <div class="login-form">
+                    <!-- ::::FORM INPUT EMAIL -->
+                    <div class="relative login-form-wrapper">
+                        <input type="email" id="email" placeholder=" " class="input input-email" name="email">
+                        <label for="email" class="label label-email">Email address</label>
+                    </div>
+                    <!-- ::::FORM INPUT PASSWORD -->
+                    <div class="relative login-form-wrapper">
+                        <input type="password" id="password" placeholder=" " class="input input-password"
+                            name="password">
+                        <label for="password" class="label label-password">Password</label>
+                        <i class="fa fa-solid fa-eye fa-lg icon-right absolute cursor-pointer" id="togglePassword"></i>
+                    </div>
+                    <!-- ::::BUTTON LOGIN-->
+                    <button class="btn login-button font-bold cursor-pointer">
+                        <a href="https://github.com/rhnas110">
+                            Log In
+                        </a>
+                    </button>
+                    <a class="cursor-pointer forgot-password" href="https://github.com/rhnas110">Forgot password?</a>
+                </div>
+
+                <!-- :::BUTTON THIRD-PARTY LOGIN -->
+                <div class="button-wrapper">
+                    <button class="relative btn apple-button font-bold cursor-pointer">
+                        <i class="fab fa-brands fa-apple icon-left absolute"></i>
+                        <a href="https://github.com/rhnas110">
+                            Continue with Apple
+                        </a>
+                    </button>
+                    <button class="relative btn ghost-button font-bold cursor-pointer">
+                        <i class="fab fa-brands fa-google icon-left absolute"></i>
+                        <a href="https://github.com/rhnas110">
+                            Continue with Google
+                        </a>
+                    </button>
+                    <button class="relative btn ghost-button font-bold cursor-pointer">
+                        <i class="fab fa-brands fa-twitter icon-left absolute"></i>
+                        <a href="https://github.com/rhnas110">
+                            Continue with X
+                        </a>
+                    </button>
+                    <button class="relative btn ghost-button font-bold cursor-pointer">
+                        <i class="fab fa-brands fa-facebook icon-left absolute" style="color: #0867ff;"></i>
+                        <a href="https://github.com/rhnas110">
+                            Continue with Facebook
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // togglePassword for showing or hide password
+        const togglePassword = document.getElementById("togglePassword");
+        const password = document.getElementById("password");
+
+        togglePassword.addEventListener("click", function () {
+            // toggle the type attribute
+            const type = password.getAttribute("type") === "password" ? "text" : "password";
+            password.setAttribute("type", type);
+
+            // toggle the icon
+            this.classList.toggle("fa-eye-slash");
+        });
+    </script>
+</body>
+
+</html>

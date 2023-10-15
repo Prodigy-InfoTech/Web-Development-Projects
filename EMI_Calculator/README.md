@@ -17,3 +17,7 @@ To use the EMI calculator, simply open the `index.html` file in your web browser
 - HTML
 - CSS
 - JavaScript
+
+## My Github Account
+
+github.com/avnee-gy

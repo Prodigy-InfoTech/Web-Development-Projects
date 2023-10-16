@@ -1,6 +1,6 @@
-# Image Editor
+# Typing Speed Test Game
 
-**Image Editor** is a simple image editing web application built using HTML, CSS, and JavaScript. This application allows users to upload an image, make various edits to the image, and then download the edited image. Users can also reset the edits at any point during the editing process.
+**Typing Speed Test Game** is a web application that measures your typing speed in terms of characters per minute (CPM), words per minute (WPM), and the number of errors made during a one-minute typing session. This game is developed using HTML, CSS, and JavaScript.
 
 ## Table of Contents
 
@@ -10,21 +10,19 @@
 - [Usage](#usage)
 
 ## Demo
-
-You can try out the application by visiting the following URL:
-
-[Image Editor Demo](www.image-ditor.vercel.app)
+Here is the SS of the project:
+![Alt text](<ss.png>)
 
 ## Features
 
-- **Image Upload:** Users can upload their own images for editing.
-- **Image Editing:** The application provides various editing features, such as filters, adjustments, cropping, and more. Users can control the editing parameters using a range.
-- **Reset Edits:** If users are not satisfied with the edits, they can easily reset the image to its original state.
-- **Download Edited Image:** Users can download the edited image once they are satisfied with the results.
+- **Real-Time Typing Test:** Users can start a one-minute typing test, and the game provides instant feedback on CPM, WPM, and the number of errors.
+- **Error Tracking:** The game accurately counts and displays the number of errors made during the test.
+- **Timer:** The game includes a one-minute timer, making it a quick and engaging typing challenge.
+- **Results Display:** After completing the test, users receive their CPM, WPM, and the number of errors on the screen.
 
 ## Getting Started
 
-To use the Image Editor App, follow these steps:
+To start testing your typing speed, follow these steps:
 
 ### Installation
 
@@ -37,18 +35,21 @@ git clone https://github.com/Prodigy-InfoTech/Web-Development-Projects.git
 2. Open the project folder.
 
 ```bash
-cd ImageEditor
+cd Typing Speed Test
 ```
 
 3. Run `index.html` in your preferred web browser.
 
 ## Usage
 
-1. Open the `index.html` file in your web browser to use the Image Ditor.
+1. Open the `index.html` file in your web browser to access the Typing Speed Test Game.
 
-2. Select the image you want to do editing on.
+2. Click the "Start" button to begin the one-minute typing test.
 
-3. Do the editing as you like.
+3. Type the displayed text as accurately and quickly as possible.
 
-4. Click the "Save" button to download the final picture on your device.
----
+4. The game will track your typing speed (CPM and WPM) and the number of errors in real-time.
+
+5. Once the timer reaches one minute, your results will be displayed on the screen.
+
+Enjoy testing and improving your typing speed with the Typing Speed Test Game!

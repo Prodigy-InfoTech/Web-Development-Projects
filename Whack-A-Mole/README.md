@@ -10,7 +10,6 @@ This is a simple Whack-a-Mole game implemented with HTML, CSS, and JavaScript. I
 - [Usage](#usage)
 - [Credits](#credits)
 
-## Demo
 
 
 ## Features

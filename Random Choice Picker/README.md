@@ -11,9 +11,11 @@ This web app is a fun random choice picker where users input options separated b
 ---
 
 ## Demo
-[![Screenshot (205)](https://github.com/Upendra2003/Web-Development-Projects/assets/96371563/1ac650ba-7c5f-4275-afb7-14bfbd305165)
-](https://github.com/tejus05/Web-Development-Projects/assets/118271901/c7e2384b-82dc-4b21-8f4a-17f7e8314cb2
-)
+
+
+https://github.com/tejus05/Web-Development-Projects/assets/118271901/21dba93b-7b03-4b3b-b7b3-e12768863b78
+ - To view demo images, visit [Images](./images/)
+
 
 
 ## Getting Started

@@ -1,7 +1,6 @@
 # Personal Diary
 
-This is a Personal Diary project implemented using HTML, CSS, and JavaScript. It allows users to add their own notes and todo on the site and check the previous notes they had created.
-User can aslo delete the notes which he/she created in the past.
+The Countdown Timer Page is a visually engaging and interactive webpage designed to help users keep track of important events, deadlines, or upcoming celebrations with precision and style. This webpage is built using a combination of HTML, CSS, and JavaScript to create a user-friendly and aesthetically pleasing countdown timer experience.
 
 ## Table of Contents
 - [Demo](#demo)
@@ -16,9 +15,9 @@ User can aslo delete the notes which he/she created in the past.
 
 ## Features
 
-- User can add their own Notes.
-- Easily access the notes created in past.
-- User can delete the notes.
+- Customizable Event Countdowns
+- Dynamic Visuals:
+- Responsive Design:.
 
 ## Getting Started
 
@@ -46,8 +45,8 @@ cd Personal Diary
 
 1. Open the `index.html` file.
 2. It shows the home page.
-3. Write the notes in textarea and click add button.
-4. you can also delete the notes
+3. Type date In Textbox
+4. click start
 ---
 
 ## Developed By

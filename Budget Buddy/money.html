@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="money.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Expense Tracker</h1>
+        <div class="form">
+            <input type="text" id="description" placeholder="Description">
+            <input type="number" id="amount" placeholder="Amount">
+            <select id="transaction-type">
+                <option value="expense">Expense</option>
+                <option value="income">Income</option>
+            </select>
+            <button id="add-transaction">Add</button>
+        </div>
+        <div class="transactions">
+            <h2>Transactions</h2>
+            <ul id="transaction-list"></ul>
+        </div>
+        <div class="summary">
+            <h2>Summary</h2>
+            <p>Total Income: <span id="total-income">0</span></p>
+            <p>Total Expenses: <span id="total-expenses">0</span></p>
+            <p>Budget: <span id="budget">0</span></p>
+        </div>
+    </div>
+    <script src="money.js"></script>
+</body>
+</html>

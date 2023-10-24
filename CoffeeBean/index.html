@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Swipper css -->
+    <link rel="stylesheet" href="src/swiper-bundle.min.css">
+    <link rel="stylesheet" href="src/styles.css">
+
+    <title>CoffeeBeans</title>
+</head>
+<body>
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">CoffeeBeans</a>
+            </div>
+            
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#discover" class="nav__link">Discover</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home" id="home">
+            <div class="home__container bd-grid">
+                <div class="home__img">
+                    <img src="src/imgs/img3.png" alt="" data-speed="-2" class="move">
+                    <img src="src/imgs/img1.png" alt="" data-speed="2" class="move">
+                    <img src="src/imgs/img2.png" alt="" data-speed="2" class="move">
+                </div>
+
+                <div class="home__data">
+                    <h1 class="home__title">Better Beans<br>Better Coffee</h1>
+                    <p class="home__description">More Expresso Less Depresso<br>Let's help you discover the best coffee drink.</p>
+                    <a href="#" class="home__button">Get Coffee</a>
+                </div>
+            </div>
+        </section>
+        <!-- about -->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">
+                            Coffee With A Conscience <br> Visit our shop CoffeeBeans
+                        </h2>
+                        <p class="about__description">
+                            From seed to cup, farm's Beans are grown, processed,and roasted to meet a premium coffee standard.
+                            As BioWilly says- “When the coffee is produced and roasted sustainably,
+                            and the growers are compensated fairly, the coffee just tastes better.”
+                        </p>
+                    </div>
+                    <div class="about__img">
+                        <img src="src/imgs/abt1.jpg" alt="" class="about__img">
+                    </div>
+            </div>
+        </section>
+            <!-- Video -->
+            <section class="video section">
+                <h2 class="section__title">Haven't tried yet?</h2>
+                <div class="video__container container">
+                    <p class="video__description">That's a Dipresso...Give it a shot! 
+                        <br>Have an extraordinary and high quality taste for a great price.</p>
+                </div>
+                <div class="video__content">
+                    <video id="video-file">
+                        <source src="src/video/coffee.mp4" type="video/mp4">
+                    </video>
+                    <button class="button button--flex video__button" id="video-button">
+                        <i class="bx bx-play video__button-icon" id="video-icon"></i>
+                    </button>
+                </div>
+            </section>
+        
+        <!-- Discover -->
+
+        <section class="discover section" id="discover">
+            <h2 class="section__title">Checkout our Drinks</h2>
+            <div class="discover__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- Moccha -->
+                     <div class="discover__card swiper-slide">
+                         <img src="src/imgs/cof1.jpg" alt="" class="discover__img">
+                         <div class="discover__data">
+                             <h2 class="discover__title">Moccha</h2>
+                         </div>
+                     </div>
+                     <!-- Cuppochino -->
+                     <div class="discover__card swiper-slide">
+                        <img src="src/imgs/cof2.jpg" alt="" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">Cuppochino</h2>
+                        </div>
+                    </div>
+                    <!-- Expresso -->
+                    <div class="discover__card swiper-slide">
+                        <img src="src/imgs/cof3.jpg" alt="" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">Expresso</h2>
+                        </div>
+                    </div>
+                    <!-- Chai -->
+                    <div class="discover__card swiper-slide">
+                        <img src="src/imgs/cof4.jpg" alt="" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">Chai</h2>
+                        </div>
+                    </div>
+                    <!-- Latte -->
+                    <div class="discover__card swiper-slide">
+                        <img src="src/imgs/cof5.jpg" alt="" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">Latte</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- subscribe -->
+        <section class="contact section" id="contact">
+            <div class="subscribe__bg">
+                <div class="subscribe__container container">
+                    <h2 class="section__title subscribe__title">Subscribe for Our<br>Weekly Updates</h2>
+                    <p class="subscribe__description">Subscribe to our weekly notice get upto <br>30% discounts on our products!</p>
+
+                    <form action="" class="subscribe__form">
+                        <input type="text" placeholder="Enter your email" class="subscribe__input">
+                        <button class="button">
+                            Subscribe
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer section">
+        <div class="footercontainer container grid">
+            <div class="footer__content grid">
+                <div class="footer__rights">
+                    <p class="footer__copy">&#169; 2021 babita.majumdar.1@gmail.com.</p>
+                    <div class="footer__terms">
+                        <a href="#" class="footer__terms-link">Terms & Agreements</a>
+                        <a href="#" class="footer__terms-link">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+     <!-- gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+   <!-- Swiper js -->
+   <script src="src/swiper-bundle.min.js"></script>
+    <script src="src/index.js"></script>
+</body>
+</html>

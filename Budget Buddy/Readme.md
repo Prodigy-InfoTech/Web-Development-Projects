@@ -2,6 +2,13 @@
 
 Welcome to the Expense Tracker project! This web application helps you manage your finances and keep track of your expenses and income. It provides an easy-to-use interface for adding transactions, categorizing them, and visualizing your budget.
 
+## Demo
+
+<img src="Budget Buddy\1.png" alt="Adding Income"/>
+<img src="Budget Buddy\2.png" alt="Adding Expense"/>
+<img src="Budget Buddy\3.png" alt="Transaction displayed"/>
+<img src="Budget Buddy\4.png" alt="Updated Balance"/>
+
 ## Features
 
 - **Transaction Management:** Add your income and expenses with descriptions and amounts.
@@ -29,4 +36,5 @@ Welcome to the Expense Tracker project! This web application helps you manage yo
 
    ```bash
    git clone clone https://github.com/Prodigy-InfoTech/Web-Development-Projects.git
+
 

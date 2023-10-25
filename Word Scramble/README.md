@@ -2,6 +2,11 @@
 
 This is a simple word scramble game made using HTML, CSS, and JS. The game presents the player with a scrambled word and a set of letters. The player must unscramble the word by rearranging the letters and typing in the correct answer.
 
+## Demonstration
+
+<img width="925" alt="image" src="https://github.com/avnee-gy/Web-Development-Projects/assets/109137150/0cf62c38-dd53-4149-9b84-06fc25144d00">
+
+
 ## How to Play
 
 1. Open the `index.html` file in your web browser.

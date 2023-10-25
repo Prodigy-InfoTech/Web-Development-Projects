@@ -4,10 +4,10 @@ Welcome to the Expense Tracker project! This web application helps you manage yo
 
 ## Demo
 
-<img src="Budget Buddy\1.png" alt="Adding Income"/>
-<img src="Budget Buddy\2.png" alt="Adding Expense"/>
-<img src="Budget Buddy\3.png" alt="Transaction displayed"/>
-<img src="Budget Buddy\4.png" alt="Updated Balance"/>
+<img src="https://github.com/Prodigy-InfoTech/Web-Development-Projects/blob/main/Budget%20Buddy/1.png" alt="Adding Income"/>
+<img src="https://github.com/Prodigy-InfoTech/Web-Development-Projects/blob/main/Budget%20Buddy/2.png" alt="Adding Expense"/>
+<img src="https://github.com/Prodigy-InfoTech/Web-Development-Projects/blob/main/Budget%20Buddy/3.png" alt="Transaction displayed"/>
+<img src="https://github.com/Prodigy-InfoTech/Web-Development-Projects/blob/main/Budget%20Buddy/4.png" alt="Updated Balance"/>
 
 ## Features
 

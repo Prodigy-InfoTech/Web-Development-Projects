@@ -2,6 +2,10 @@
 
 This is a web application that allows users to translate text from one language to another. It is built using HTML, CSS, and JavaScript.
 
+## Demonstartion
+<img width="649" alt="image" src="https://github.com/avnee-gy/Web-Development-Projects/assets/109137150/dfa0333f-465a-47f8-bdf9-3d7211ba23f8">
+
+
 ## Features
 
 - Translate text from one language to another

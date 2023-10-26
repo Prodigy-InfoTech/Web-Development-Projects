@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(179, 178, 178, 0.171);
+}
+.age_container{
+  background-color: white;
+  width: 50%;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+.age_head{
+  text-shadow: 1px 3px black;
+  margin-bottom: 10px;
+}
+.age_container label{
+  font-size: 13px;
+  word-spacing: 3px;
+}
+.age_container input{
+  width: 50%;
+  margin-top: 5px;
+}
+.age_submit{
+  margin-top: 5px;
+  border-radius: 2px;
+  font-size: 10px;
+  width: 100px;
+  height: 20px;
+  border: none;
+  color: white;
+  background-color: rgb(73, 73, 255);
+}

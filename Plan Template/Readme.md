@@ -16,5 +16,6 @@ This is a webpage of premium plan template needed for some commercial websites.
 - Shows the amount of the plan
 - Contains a button to take the premium
 - Can change the contents
+- Many plans to take
 
 

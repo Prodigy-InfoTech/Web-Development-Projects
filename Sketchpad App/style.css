@@ -1,0 +1,253 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+main {
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    display: flex;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #c4c4c476;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s; /* Transition effect */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+h2 {
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+canvas {
+    background: none;
+    position: relative;
+    z-index: 1;
+}
+
+#grid {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -2;
+    background: url("./grid.svg");
+    transform: scale(3, 3);
+    opacity: 0.5;
+    display: none;
+}
+
+.grid-toggle-container input {
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
+
+#changeBgColorBtn {
+    padding: 5px 10px;
+    background-color: #a6c6ece3;
+    color: white;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* TOOLBAR STYLES */
+
+.container {
+    width: 100%;
+    margin: 10px 0;
+    flex-shrink: 0;
+}
+
+.toolbar {
+    background-color: #2c4a5a; /* Match the toolbar background color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    min-width: 300px;
+    flex-shrink: 0;
+    overflow: auto;
+}
+
+.pen-colors__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.color {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid rgba(0, 0, 0, 0);
+}
+
+.red-paint {
+    background-color: #e34a4a;
+}
+
+.green-paint {
+    background-color: #33ac4e;
+}
+
+.blue-paint {
+    background-color: #3c8ded;
+}
+
+.black-paint {
+    background-color: #000;
+}
+
+.tool {
+    padding: 5px 10px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    width: 50px;
+}
+
+/* do not apply hover effect on the selected tool */
+.tool:not([class$="selected"]):hover {
+    background-color: #467088;
+}
+
+.selected-tool {
+    background-color: #16272c;
+    border: 2px solid #3a6378;
+}
+
+.selected-color {
+    border: 3px solid rgba(255, 255, 255, 0.8);
+}
+
+.tool-size {
+    color: #000;
+    padding: 10px 0 10px 20px;
+}
+
+.tool-name {
+    position: absolute;
+    top: -50%;
+    background-color: #395b6e;
+}
+
+.tool-size {
+    display: inline-block;
+    flex: 1;
+}
+
+.tool-slider-container {
+    display: flex;
+    align-items: center;
+}
+
+.tool-slider {
+    height: 2px;
+    background: #fff;
+    width: 80%;
+}
+
+.shapes-size {
+    width: 100%;
+    padding: 0;
+}
+
+#shapes-slider {
+    width: 80%;
+}
+
+.smallest-size,
+.largest-size {
+    background: #fff;
+    border-radius: 50%;
+}
+
+.smallest-size {
+    width: 3px;
+    height: 3px;
+    margin-right: 10px;
+}
+
+.largest-size {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.pen-tool__container,
+.eraser-tool__container,
+.shapes-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* TEXT TOOL STYLES */
+/* NOTE: Using contenteditable instead of an input element for text */
+
+#text-tool-input {
+    display: none;
+    position: absolute;
+    z-index: 2;
+    font-size: 16px;
+    color: #000;
+    min-width: 16px;
+}
+
+#text-tool-input:focus {
+    outline: none;
+}
+
+.toolbar__text-tool select {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: none;
+    padding: 10px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.toolbar__text-tool select option {
+    background-color: #395b6e;
+}
+
+.misc-actions-container {
+    margin-bottom: auto;
+}
+
+.trash-btn {
+    margin-left: 20px;
+}

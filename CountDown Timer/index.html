@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>CountDown_Timer</title>
+        <script src="index.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <marquee behavior="alternate"><h1><b>Countdown Clock</b></h1></marquee>
+        <h2><b>Enter The DeadLine Date(Format= month date year hh:mm:ss)</b></h2>
+        <div class="form">
+        <input type="text" id="dead_line"><br><br>
+        <button type=click onclick="deadline()">Start</button><br><br>
+        </div>
+        <div id="clockdiv">
+        <div>
+        <span class="days" id="day"></span>
+        <div class="smalltext">Days</div>
+        </div>
+        <div>
+        <span class="hours" id="hour"></span>
+        <div class="smalltext">Hours</div>
+        </div>
+        <div>
+        <span class="minutes" id="minute"></span>
+        <div class="smalltext">Minutes</div>
+        </div>
+        <div>
+        <span class="seconds" id="second"></span>
+        <div class="smalltext">Seconds</div>
+        </div>
+        </div>
+        <p id="demo"></p>
+        <div class="foot"> 
+            <p>&#169; Chetan Patil &nbsp; &nbsp; <span><a href="https://github.com/Git0Chetan">@Github</a> &nbsp;  &nbsp; &#174; All rights reserved</span></p>
+        </div>
+    </body>
+</html>

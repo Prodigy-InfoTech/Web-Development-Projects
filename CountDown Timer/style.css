@@ -1,0 +1,80 @@
+
+            body{
+                padding-top: 15vh;
+                text-align: center;
+                background: linear-gradient(0deg, #03505e,rgb(255, 255, 255));
+                font-family: sans-serif;
+                font-weight: 100; 
+            }
+
+            h1{
+                color: #396;
+                font-weight: 100;
+                font-size: 40px;
+                margin: 40px 20px 50px;
+            }
+
+            h2{
+                color: rgb(2, 34, 18);
+                font-weight: 100;
+                font-size: 25px;
+                margin: 40px 20px 10px; 
+            }
+
+            #clockdiv{
+                font-family: sans-serif;
+                color: #fff;
+                display: inline-block;
+                font-weight: 100;
+                text-align: center;
+                font-size: 30px; 
+            }
+
+            #clockdiv > div{
+                padding: 10px;
+                border-radius: 3px;
+                background: #00BF96;
+                display: inline-block; 
+            }
+
+            #clockdiv div > span{
+                padding: 15px;
+                border-radius: 3px;
+                background: #00816A;
+                display: inline-block; 
+            }
+
+            .form input{
+                font-size: 20px;
+                color: black;
+                height: 30px;
+                width: 300;
+                background: #6ae9a7;
+                text-align: center;
+                display: inline-block; 
+            }
+
+            .form button{
+                font-size: 20px;
+                background:#6ae9a7;
+                width: 100px;
+                height: 25px;
+                color: black;
+                text-align: center;
+                display: inline-block; 
+            }
+
+            .foot{
+                width: 100vw;
+                display: flex;
+                justify-content: center;
+                align-items:flex-end;
+                margin-top:35vh;
+                background-color: #043c43;
+                color: white;
+            }
+
+            .foot a{
+                color: white;
+                text-decoration: none;
+            }

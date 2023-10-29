@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            rel="stylesheet"
+            integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="./style.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <title>Sketchpad</title>
+    </head>
+    <body>
+        <main>
+            <aside class="toolbar" id="toolbar">
+                <h1>
+                    SKETCH-UP! <br /><br /><br /><br /><br /><br /><br />
+                    Tools and Settings
+                </h1>
+                <div class="toolbar__pen-colors container">
+                    <h2>Stroke Colors</h2>
+                    <div class="pen-colors__container">
+                        <button
+                            data-color="red"
+                            class="color red-paint selected-color"
+                        ></button>
+                        <button
+                            data-color="green"
+                            class="color green-paint"
+                        ></button>
+                        <button
+                            data-color="blue"
+                            class="color blue-paint"
+                        ></button>
+                        <button
+                            data-color="black"
+                            class="color black-paint"
+                        ></button>
+                    </div>
+                </div>
+                <div class="toolbar__pen-tool container">
+                    <h2>Pen and Pen Size</h2>
+                    <div class="pen-tool__container">
+                        <button data-tool="pen" class="tool selected-tool">
+                            <i class="fa fa-pencil" aria-hidden="true"></i>
+                        </button>
+                        <div class="tool-size">
+                            <div class="tool-slider-container">
+                                <span class="smallest-size"></span>
+                                <input
+                                    type="range"
+                                    class="tool-slider"
+                                    min="3"
+                                    max="30"
+                                    value="10"
+                                    id="pen-slider"
+                                />
+                                <span class="largest-size"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="toolbar__eraser-tool container">
+                    <h2>Eraser and Eraser Size</h2>
+                    <div class="eraser-tool__container">
+                        <button data-tool="eraser" class="tool">
+                            <i class="fa fa-eraser" aria-hidden="true"></i>
+                        </button>
+                        <div class="tool-size">
+                            <div class="tool-slider-container">
+                                <span class="smallest-size"></span>
+                                <input
+                                    class="tool-slider"
+                                    type="range"
+                                    min="3"
+                                    max="60"
+                                    value="10"
+                                    id="eraser-slider"
+                                />
+                                <span class="largest-size"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="toolbar__text-tool container">
+                    <h2>Text</h2>
+                    <button data-tool="text" class="tool">
+                        <i class="fa fa-font" aria-hidden="true"></i>
+                    </button>
+                    <div class="tool-size">
+                        <select name="font-size" id="font-size">
+                            <option value="16">16px</option>
+                            <option value="18">18px</option>
+                            <option value="24">24px</option>
+                            <option value="32">32px</option>
+                        </select>
+                        <select name="font-family" id="font-family">
+                            <option value="Arial">Arial</option>
+                            <option value="Times New Roman">
+                                Times New Roman
+                            </option>
+                            <option value="Monospace">Monospace</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="toolbar__shapes-tools container">
+                    <h2>Shape Tools and Size</h2>
+                    <div class="shapes-container">
+                        <button data-tool="rectangle" class="tool">
+                            <i
+                                style="vertical-align: bottom"
+                                class="fa fa-square-o"
+                                aria-hidden="true"
+                            ></i>
+                        </button>
+                        <button data-tool="circle" class="tool">
+                            <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                        </button>
+                        <button data-tool="line" class="tool">/</button>
+                    </div>
+                    <div class="tool-size shapes-size">
+                        <div class="tool-slider-container">
+                            <span class="smallest-size"></span>
+                            <input
+                                class="tool-slider"
+                                type="range"
+                                min="3"
+                                max="30"
+                                value="10"
+                                id="shapes-slider"
+                            />
+                            <span class="largest-size"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="misc-actions-container">
+                    <div class="grid-toggle-container">
+                        <label for="grid-toggle">Grid</label>
+                        <input type="checkbox" id="grid-toggle" />
+                    </div>
+                    <button class="action undo-btn" id="undo">
+                        <i class="fa fa-undo" aria-hidden="true"></i>
+                    </button>
+                    <button class="action trash-btn" id="trash">
+                        <i class="fa fa-trash" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <button id="changeBgColorBtn">Change Background Color</button>
+            </aside>
+            <canvas id="canvas"></canvas>
+            <!-- absolutely positioned elements -->
+            <span
+                contenteditable="true"
+                id="text-tool-input"
+                type="text"
+            ></span>
+            <div id="grid"></div>
+        </main>
+        <script src="./script.js"></script>
+    </body>
+</html>

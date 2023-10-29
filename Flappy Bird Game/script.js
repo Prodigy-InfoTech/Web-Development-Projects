@@ -30,7 +30,7 @@ let topPipeImg;
 let bottomPipeImg;
 
 //physics
-let velocityX = -2;
+let velocityX = -1;
 let velocityY = 0;
 let gravity = 0.4;
 

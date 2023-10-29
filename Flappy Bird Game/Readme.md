@@ -24,5 +24,6 @@ change the velocityX increase or decrease the speed of rods to make game easier
 ```js
 let velocityX = -2;
 ```
+![screenShort](image.png)
 
 ## Have Fun :)

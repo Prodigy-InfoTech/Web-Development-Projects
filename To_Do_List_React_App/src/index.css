@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main_div{
+ width: 100%;
+ height: 100vh;
+ background : #6983aa;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+
+}
+
+
+.center_div{
+  width: 25%;
+  height: 80vh;
+  background-color: #f4f4f4;
+  box-shadow: 5px 5px 5px -5px rgba(0,0,0,0.5);
+  border-radius: 15px;
+
+}
+
+h1{
+  color: white;
+  background:transparent;
+  background-color: #8566aa;
+  padding: 6px 0 2px 0;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+}
+
+input{
+  text-align: center;
+  height: 30px;
+  top:10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  width: 60%;
+  border-bottom: 2px solid #8566aa;
+  outline: none;
+
+}
+
+button{
+  min-height: 40px;
+  width:40px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #8566aa;
+  color: #fff;
+  font-size:40px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0,0.3);
+   
+
+}
+
+button:hover{
+  background-color: #20bf20;
+}
+
+ol{
+  margin-top:30px;
+
+}
+
+ol li{
+  
+  padding-left: 0px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  color: #8566aa;
+  text-transform: capitalize;
+
+
+}
+
+.todo_style{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+
+}
+
+.todo_style .fa-time{
+
+width: 20px;
+height: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #8566aa;
+border-radius: 50%;
+margin: 0 15px 0 35px;
+color:aliceblue;
+box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+
+
+}
+
+.todo_style .fa-time:hover {
+  background-color: crimson;
+}
+
+.todo_style .fa-time:hover .list_style{
+  color: crimson;
+}
+
+@media (max-width:768px) {
+  
+  .center_div{
+    width: 55%;
+  }
+}
+
+.todo_style .fa-time{
+  margin: 0 15px 0 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+ 
+   margin-left :5px; 
+   min-height: 40px;
+   width: 40px;
+   color:#fff;
+   font-size: 30px;
+
+}

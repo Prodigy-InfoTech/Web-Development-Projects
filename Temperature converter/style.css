@@ -1,0 +1,105 @@
+/* Base styles */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.container {
+  margin: 3rem auto;
+  background-image: url('https://imgs.search.brave.com/l4c6oRXfClNFv-vHH01T5V-cWHekvQ4Bhsyg7_gErQE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9nZXR3/YWxscGFwZXJzLmNv/bS93YWxscGFwZXIv/ZnVsbC81L2QvYy80/OTYyMjEuanBn');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 60%;
+  height: 60vh;
+  padding: 3rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 58px;
+  font-weight: 900;
+  color: white;
+  text-shadow: 5px;
+}
+
+input[type='number'] {
+  width: 80px;
+  padding: 5px;
+  text-align: center;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 2rem;
+}
+
+select {
+  padding: 5px;
+}
+
+#result {
+  font-weight: bold;
+  margin-top: 20px;
+  color: white;
+}
+
+.btn {
+  margin: 2rem auto;
+  padding: 0.5rem 2rem;
+  font-weight: 900;
+  font-size: 23px;
+  border: none;
+  border-radius: 1rem;
+  color: skyblue;
+  box-shadow: 0 0 0 2px;
+}
+
+.label,
+span {
+  color: white;
+  font-size: 23px;
+}
+
+#fromUnit,
+#toUnit {
+  border: none;
+  border-radius: 6px;
+  margin: 0 1rem;
+  padding: 0.5rem 2rem;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+    padding: 2rem;
+    height: fit-content;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  input[type='number'] {
+    width: 60px;
+    padding: 4px;
+    font-size: 16px;
+  }
+
+  select {
+    padding: 4px;
+    font-size: 16px;
+  }
+
+  .btn {
+    font-size: 18px;
+    padding: 0.3rem 1.5rem;
+  }
+
+  .label,
+  span {
+    font-size: 18px;
+  }
+  #fromUnit,
+  #toUnit {
+    margin: 1rem 0;
+  }
+}

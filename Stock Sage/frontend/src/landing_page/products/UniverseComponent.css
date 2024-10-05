@@ -1,0 +1,9 @@
+.symbol{
+    width: 140px;
+    height: 45px;
+}
+
+.justifyCenter{
+    text-align: justify;
+    font-size: 15px;
+}

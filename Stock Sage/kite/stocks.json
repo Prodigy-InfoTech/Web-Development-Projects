@@ -1,0 +1,506 @@
+[
+    {
+        "stockSymbol": "AAPL",
+        "stockName": "Apple Inc.",
+        "avgTradePrice": 175.25,
+        "currentPrice": 180.00,
+        "difference": 4.75,
+        "percentageDifference": 2.71,
+        "isDown": false
+    },
+    {
+        "stockSymbol": "MSFT",
+        "stockName": "Microsoft Corporation",
+        "avgTradePrice": 342.15,
+        "currentPrice": 335.00,
+        "difference": -7.15,
+        "percentageDifference": -2.09,
+        "isDown": true
+    },
+    {
+        "stockSymbol": "GOOGL",
+        "stockName": "Alphabet Inc.",
+        "avgTradePrice": 132.45,
+        "currentPrice": 130.00,
+        "difference": -2.45,
+        "percentageDifference": -1.85,
+        "isDown": true
+    },
+    {
+        "stockSymbol": "AMZN",
+        "stockName": "Amazon.com Inc.",
+        "avgTradePrice": 145.30,
+        "currentPrice": 150.00,
+        "difference": 4.70,
+        "percentageDifference": 3.23,
+        "isDown": false
+    },
+    {
+        "stockSymbol": "TSLA",
+        "stockName": "Tesla Inc.",
+        "avgTradePrice": 250.50,
+        "currentPrice": 240.00,
+        "difference": -10.50,
+        "percentageDifference": -4.19,
+        "isDown": true
+    },
+    {
+        "stockSymbol": "FB",
+        "stockName": "Meta Platforms Inc.",
+        "avgTradePrice": 300.20,
+        "currentPrice": 305.00,
+        "difference": 4.80,
+        "percentageDifference": 1.60,
+        "isDown": false
+    },
+    {
+        "stockSymbol": "NFLX",
+        "stockName": "Netflix Inc.",
+        "avgTradePrice": 450.10,
+        "currentPrice": 440.00,
+        "difference": -10.10,
+        "percentageDifference": -2.24,
+        "isDown": true
+    },
+    {
+        "stockSymbol": "NVDA",
+        "stockName": "NVIDIA Corporation",
+        "avgTradePrice": 475.00,
+        "currentPrice": 480.00,
+        "difference": 5.00,
+        "percentageDifference": 1.05,
+        "isDown": false
+    },
+    {
+        "stockSymbol": "BRK.B",
+        "stockName": "Berkshire Hathaway Inc.",
+        "avgTradePrice": 350.75,
+        "currentPrice": 355.00,
+        "difference": 4.25,
+        "percentageDifference": 1.21,
+        "isDown": false
+    },
+    {
+        "stockSymbol": "JPM",
+        "stockName": "JPMorgan Chase & Co.",
+        "avgTradePrice": 140.25,
+        "currentPrice": 138.00,
+        "difference": -2.25,
+        "percentageDifference": -1.60,
+        "isDown": true
+    },
+    {
+        "stockSymbol": "V",
+        "stockName": "Visa Inc.",
+        "avgTradePrice": 230.15,
+        "currentPrice": 232.00,
+        "difference": 1.85,
+        "percentageDifference": 0.80,
+        "isDown": false
+    },
+    {
+        "stockSymbol": "MA",
+        "stockName": "Mastercard Incorporated",
+        "avgTradePrice": 390.50,
+        "currentPrice": 385.00,
+        "difference": -5.50,
+        "percentageDifference": -1.41,
+        "isDown": true
+    },
+    {
+        "stockSymbol": "DIS",
+        "stockName": "The Walt Disney Company",
+        "avgTradePrice": 120.00,
+        "currentPrice": 125.00,
+        "difference": 5.00,
+        "percentageDifference": 4.17,
+        "isDown": false
+    },
+    {
+        "stockSymbol": "PYPL",
+        "stockName": "PayPal Holdings Inc.",
+        "avgTradePrice": 75.20,
+        "currentPrice": 72.00,
+        "difference": -3.20,
+        "percentageDifference": -4.25,
+        "isDown": true
+    },
+    {
+        "stockSymbol": "ADBE",
+        "stockName": "Adobe Inc.",
+        "avgTradePrice": 560.30,
+        "currentPrice": 570.00,
+        "difference": 9.70,
+        "percentageDifference": 1.73,
+        "isDown": false
+    },
+    {
+        "stockSymbol": "CMCSA",
+        "stockName": "Comcast Corporation",
+        "avgTradePrice": 42.50,
+        "currentPrice": 43.00,
+        "difference": 0.50,
+        "percentageDifference": 1.18,
+        "isDown": false
+    },
+    {
+        "stockSymbol": "INTC",
+        "stockName": "Intel Corporation",
+        "avgTradePrice": 30.75,
+        "currentPrice": 29.00,
+        "difference": -1.75,
+        "percentageDifference": -5.69,
+        "isDown": true
+    },
+    {
+        "stockSymbol": "CSCO",
+        "stockName": "Cisco Systems Inc.",
+        "avgTradePrice": 52.10,
+        "currentPrice": 53.00,
+        "difference": 0.90,
+        "percentageDifference": 1.73,
+        "isDown": false
+    },
+    {
+        "stockSymbol": "PEP",
+        "stockName": "PepsiCo Inc.",
+        "avgTradePrice": 180.00,
+        "currentPrice": 182.00,
+        "difference": 2.00,
+        "percentageDifference": 1.11,
+        "isDown": false
+    },
+    {
+        "stockSymbol": "KO",
+        "stockName": "Coca-Cola Company",
+        "avgTradePrice": 60.25,
+        "currentPrice": 59.00,
+        "difference": -1.25,
+        "percentageDifference": -2.08,
+        "isDown": true
+    },
+    {
+        "stockSymbol": "PFE",
+        "stockName": "Pfizer Inc.",
+        "avgTradePrice": 45.00,
+        "currentPrice": 46.00,
+        "difference": 1.00,
+        "percentageDifference": 2.22,
+        "isDown": false
+    },
+    {
+        "stockSymbol": "MRK",
+        "stockName": "Merck & Co., Inc.",
+        "avgTradePrice": 90.50,
+        "currentPrice": 89.00,
+        "difference": -1.50,
+        "percentageDifference": -1.66,
+        "isDown": true
+    },
+    {
+        "stockSymbol": "ABT",
+        "stockName": "Abbott Laboratories",
+        "avgTradePrice": 110.20,
+        "currentPrice": 112.00,
+        "difference": 1.80,
+        "percentageDifference": 1.64,
+        "isDown": false
+    },
+    {
+        "stockSymbol": "NKE",
+        "stockName": "Nike Inc.",
+        "avgTradePrice": 120.00,
+        "currentPrice": 119.00,
+        "difference": -1.00,
+        "percentageDifference": -0.83,
+        "isDown": true
+    },
+    {
+        "stockSymbol": "T",
+        "stockName": "AT&T Inc.",
+        "avgTradePrice": 15.75,
+        "currentPrice": 16.00,
+        "difference": 0.25,
+        "percentageDifference": 1.59,
+        "isDown": false
+    },
+    {
+        "stockSymbol": "VZ",
+        "stockName": "Verizon Communications Inc.",
+        "avgTradePrice": 38.50,
+        "currentPrice": 37.50,
+        "difference": -1.00,
+        "percentageDifference": -2.60,
+        "isDown": true
+    },
+    {
+        "stockSymbol": "XOM",
+        "stockName": "Exxon Mobil Corporation",
+        "avgTradePrice": 105.00,
+        "currentPrice": 106.00,
+        "difference": 1.00,
+        "percentageDifference": 0.95,
+        "isDown": false
+    },
+    {
+        "stockSymbol": "CVX",
+        "stockName": "Chevron Corporation",
+        "avgTradePrice": 170.25,
+        "currentPrice": 169.00,
+        "difference": -1.25,
+        "percentageDifference": -0.74,
+        "isDown": true
+    },
+    {
+        "stockSymbol": "WMT",
+        "stockName": "Walmart Inc.",
+        "avgTradePrice": 160.00,
+        "currentPrice": 161.00,
+        "difference": 1.00,
+        "percentageDifference": 0.63,
+        "isDown": false
+    },
+    {
+        "stockSymbol": "HD",
+        "stockName": "The Home Depot, Inc.",
+        "avgTradePrice": 320.50,
+        "currentPrice": 325.00,
+        "difference": 4.50,
+        "percentageDifference": 1.40,
+        "isDown": false
+    },
+    {
+        "stockSymbol": "UNH",
+        "stockName": "UnitedHealth Group Incorporated",
+        "avgTradePrice": 490.00,
+        "currentPrice": 485.00,
+        "difference": -5.00,
+        "percentageDifference": -1.02,
+        "isDown": true
+    },
+    {
+        "stockSymbol": "JNJ",
+        "stockName": "Johnson & Johnson",
+        "avgTradePrice": 155.75,
+        "currentPrice": 157.00,
+        "difference": 1.25,
+        "percentageDifference": 0.80,
+        "isDown": false
+    },
+    {
+        "stockSymbol": "TMO",
+        "stockName": "Thermo Fisher Scientific Inc.",
+        "avgTradePrice": 600.00,
+        "currentPrice": 610.00,
+        "difference": 10.00,
+        "percentageDifference": 1.67,
+        "isDown": false
+    },
+    {
+        "stockSymbol": "LLY",
+        "stockName": "Eli Lilly and Company",
+        "avgTradePrice": 450.50,
+        "currentPrice": 455.00,
+        "difference": 4.50,
+        "percentageDifference": 1.00,
+        "isDown": false
+    },
+    {
+        "stockSymbol": "MDT",
+        "stockName": "Medtronic plc",
+        "avgTradePrice": 90.00,
+        "currentPrice": 88.00,
+        "difference": -2.00,
+        "percentageDifference": -2.22,
+        "isDown": true
+    },
+    {
+        "stockSymbol": "IBM",
+        "stockName": "International Business Machines Corporation",
+        "avgTradePrice": 140.00,
+        "currentPrice": 142.00,
+        "difference": 2.00,
+        "percentageDifference": 1.43,
+        "isDown": false
+    },
+    {
+        "stockSymbol": "TXN",
+        "stockName": "Texas Instruments Incorporated",
+        "avgTradePrice": 180.00,
+        "currentPrice": 178.00,
+        "difference": -2.00,
+        "percentageDifference": -1.11,
+        "isDown": true
+    },
+    {
+        "stockSymbol": "QCOM",
+        "stockName": "Qualcomm Incorporated",
+        "avgTradePrice": 120.75,
+        "currentPrice": 121.00,
+        "difference": 0.25,
+        "percentageDifference": 0.21,
+        "isDown": false
+    },
+    {
+        "stockSymbol": "NOW",
+        "stockName": "ServiceNow, Inc.",
+        "avgTradePrice": 550.00,
+        "currentPrice": 552.00,
+        "difference": 2.00,
+        "percentageDifference": 0.36,
+        "isDown": false
+    },
+    {
+        "stockSymbol": "CRM",
+        "stockName": "Salesforce, Inc.",
+        "avgTradePrice": 220.00,
+        "currentPrice": 218.00,
+        "difference": -2.00,
+        "percentageDifference": -0.91,
+        "isDown": true
+    },
+    {
+        "stockSymbol": "SNAP",
+        "stockName": "Snap Inc.",
+        "avgTradePrice": 10.00,
+        "currentPrice": 10.50,
+        "difference": 0.50,
+        "percentageDifference": 5.00,
+        "isDown": false
+    },
+    {
+        "stockSymbol": "ZM",
+        "stockName": "Zoom Video Communications, Inc.",
+        "avgTradePrice": 75.00,
+        "currentPrice": 74.00,
+        "difference": -1.00,
+        "percentageDifference": -1.33,
+        "isDown": true
+    },
+    {
+        "stockSymbol": "SPOT",
+        "stockName": "Spotify Technology S.A.",
+        "avgTradePrice": 150.00,
+        "currentPrice": 152.00,
+        "difference": 2.00,
+        "percentageDifference": 1.33,
+        "isDown": false
+    },
+    {
+        "stockSymbol": "PINS",
+        "stockName": "Pinterest, Inc.",
+        "avgTradePrice": 25.00,
+        "currentPrice": 24.00,
+        "difference": -1.00,
+        "percentageDifference": -4.00,
+        "isDown": true
+    },
+    {
+        "stockSymbol": "SQ",
+        "stockName": "Block, Inc.",
+        "avgTradePrice": 70.00,
+        "currentPrice": 68.00,
+        "difference": -2.00,
+        "percentageDifference": -2.86,
+        "isDown": true
+    },
+    {
+        "stockSymbol": "TWTR",
+        "stockName": "Twitter, Inc.",
+        "avgTradePrice": 45.00,
+        "currentPrice": 46.00,
+        "difference": 1.00,
+        "percentageDifference": 2.22,
+        "isDown": false
+    },
+    {
+        "stockSymbol": "BABA",
+        "stockName": "Alibaba Group Holding Limited",
+        "avgTradePrice": 85.00,
+        "currentPrice": 84.00,
+        "difference": -1.00,
+        "percentageDifference": -1.18,
+        "isDown": true
+    },
+    {
+        "stockSymbol": "JD",
+        "stockName": "JD.com, Inc.",
+        "avgTradePrice": 30.00,
+        "currentPrice": 29.00,
+        "difference": -1.00,
+        "percentageDifference": -3.33,
+        "isDown": true
+    },
+    {
+        "stockSymbol": "NIO",
+        "stockName": "NIO Inc.",
+        "avgTradePrice": 15.00,
+        "currentPrice": 16.00,
+        "difference": 1.00,
+        "percentageDifference": 6.67,
+        "isDown": false
+    },
+    {
+        "stockSymbol": "LI",
+        "stockName": "Li Auto Inc.",
+        "avgTradePrice": 25.00,
+        "currentPrice": 24.00,
+        "difference": -1.00,
+        "percentageDifference": -4.00,
+        "isDown": true
+    },
+    {
+        "stockSymbol": "XPEV",
+        "stockName": "XPeng Inc.",
+        "avgTradePrice": 20.00,
+        "currentPrice": 21.00,
+        "difference": 1.00,
+        "percentageDifference": 5.00,
+        "isDown": false
+    },
+    {
+        "stockSymbol": "F",
+        "stockName": "Ford Motor Company",
+        "avgTradePrice": 12.00,
+        "currentPrice": 12.50,
+        "difference": 0.50,
+        "percentageDifference": 4.17,
+        "isDown": false
+    },
+    {
+        "stockSymbol": "GM",
+        "stockName": "General Motors Company",
+        "avgTradePrice": 35.00,
+        "currentPrice": 34.00,
+        "difference": -1.00,
+        "percentageDifference": -2.86,
+        "isDown": true
+    },
+    {
+        "stockSymbol": "TSM",
+        "stockName": "Taiwan Semiconductor Manufacturing Company",
+        "avgTradePrice": 90.00,
+        "currentPrice": 89.00,
+        "difference": -1.00,
+        "percentageDifference": -1.11,
+        "isDown": true
+    },
+    {
+        "stockSymbol": "AVGO",
+        "stockName": "Broadcom Inc.",
+        "avgTradePrice": 850.00,
+        "currentPrice": 855.00,
+        "difference": 5.00,
+        "percentageDifference": 0.59,
+        "isDown": false
+    },
+    {
+        "stockSymbol": "AMD",
+        "stockName": "Advanced Micro Devices, Inc.",
+        "avgTradePrice": 105.00,
+        "currentPrice": 106.00,
+        "difference": 1.00,
+        "percentageDifference": 0.95,
+        "isDown": false
+    }
+]

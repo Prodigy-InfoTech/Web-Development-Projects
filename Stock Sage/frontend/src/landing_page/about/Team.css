@@ -1,0 +1,10 @@
+.ceoPic{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.lineSpacing{
+    line-height: 33px;
+    text-align: justify;
+}

@@ -1,0 +1,9 @@
+.kiteLogo{
+    width: 35px;
+    height: 35px;
+}
+
+.highlightElement{
+    color: orangered !important;
+    font-weight: 700 !important;
+}

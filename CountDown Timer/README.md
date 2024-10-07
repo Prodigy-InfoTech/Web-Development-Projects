@@ -1,4 +1,4 @@
-# Personal Diary
+# Countdown Timer
 
 The Countdown Timer Page is a visually engaging and interactive webpage designed to help users keep track of important events, deadlines, or upcoming celebrations with precision and style. This webpage is built using a combination of HTML, CSS, and JavaScript to create a user-friendly and aesthetically pleasing countdown timer experience.
 

@@ -1,0 +1,16 @@
+.navbar {
+    box-shadow: whitesmoke 0px 3px;
+}
+
+.parent {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space between logo and nav items */
+}
+
+.logo {
+    width: 23%;
+}
+.nav-item{
+    padding-right: 25px;
+}

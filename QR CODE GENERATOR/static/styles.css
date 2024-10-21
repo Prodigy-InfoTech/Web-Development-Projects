@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background: linear-gradient(135deg, #000000, #6a0dad, #000000);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.container {
+    width: 700px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #000000, #6a0dad, #000000);
+    box-shadow: 5px 5px 17px 17px rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+input[type="color"] {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+    padding: 0;
+    border-radius: 5px;
+}
+
+input[type="color"]::-webkit-color-swatch {
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #6a0dad;
+    border-color: #6a0dad;
+    margin-top: 20px;
+    border-width: 2px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.btn-primary:hover {
+    background-color: #5c0b8e;
+    border-color: #5c0b8e;
+}

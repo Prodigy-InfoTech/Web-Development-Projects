@@ -74,10 +74,9 @@ Here are a few screenshots of the application in action:
 
  **Website Dashboard:**
    ![Website](./image.png)
+   ![Website](./image1.png)
+   
 
-## Customization
-
-You can customize the templates and styles by editing the files located in the `src/templates` and `src/styles` directories. Adjust the layout, colors, and fonts to match your preferences.
 
 ## Contributing
 
@@ -105,4 +104,4 @@ Thank you for using the Resume Generator!
 
 GitHub Link: https://github.com/yashwanthvarma18
 
-Deployed Website Link: https://gregarious-lolly-6ebc7f.netlify.app/
+Deployed Website Link: https://resume-builder123456.netlify.app/

@@ -1,7 +1,7 @@
 {
-  "name": "resume-cv-generator",
+  "name": "vite-react-typescript-starter",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -13,8 +13,8 @@
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-to-print": "^2.15.1",
-    "jspdf": "^2.5.1"
+    "react-to-pdf": "^1.0.1",
+    "clsx": "^2.1.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.1",

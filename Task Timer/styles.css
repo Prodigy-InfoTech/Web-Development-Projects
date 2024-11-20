@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.timer {
+    font-size: 3rem;
+    margin: 20px 0;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#minutes {
+    width: 100px;
+    margin-right: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#start, #reset {
+    background-color: #0074cc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#reset {
+    background-color: #cc0000;
+    margin-left: 10px;
+}
+.task-name {
+    margin-bottom: 20px;
+}
+.task-name input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+@media screen and (max-width: 600px) {
+    .controls {
+        flex-direction: column;
+    }
+    .controls input, .controls button {
+        margin: 5px 0;
+    }
+}
